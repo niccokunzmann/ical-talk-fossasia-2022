@@ -1,24 +1,5 @@
 
-## Intro
-- TODO: photo yurt
 
-
-## ICALENDAR - why?
-- sharing of calendars around the world
-- notice: ICS file
-- related:
-  - VCF for contacts
-  - webdav
-Used by:
-- Nextloud, Eventyay, Thunderbird, Android, ...
-- read it: RFC 5545
-
-## ICAL - Overview
-- from 1997 TODO: confirm
-- revision 2.0 at the moment
-- includes: 
-  - **events** and **time zones**
-  - Journal entries, Alarms, TODOs, Free/Busy
 
 ## Example
 - TODO: example file, highlight what is talked about

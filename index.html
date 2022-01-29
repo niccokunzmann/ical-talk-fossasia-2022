@@ -8,7 +8,7 @@
     <style>
         .shower {
             --slide-ratio: calc(16 / 9);
-        }
+        }i
     </style>
 </head>
 <body class="shower list">
@@ -58,19 +58,90 @@
             <li>Practical Example</li>
             <li>Q & A session</li>
             <li>End: chat and hands-on session</li>
-            <li></li>
-            <li></li>
-            <li></li>
         </ol>
         
                 <!-- TODO: add link to presentation -->
-        <p class="note">Ask questions right away, I will answer them when it fits! (write them to me).</p>
+        Slides: <a href="https://niccokunzmann.github.io/ical-slides-fossasia-2022">niccokunzmann.github.io/ical-slides-fossasia-2022</a>
     </section>
     <section class="slide">
         <h2>About Nicco Kunzmann</h2>
         <ul>
           <li>Website: <a href="https://niccokunzmann.github.io">niccokunzmann.github.io</a></li>
+          <li>Living in eco-village in Wales/UK</li>
+          - TODO: photo yurt
         </ul>
+    </section>
+
+    <section class="slide">
+        <h2>ICalendar - Why?</h2>
+        <ol>
+          <li>Sharing of calendar events around the world</li>
+          <li>Files: <code>.ics</code></li>
+          <li>Used by: Nextloud, Eventyay, Thunderbird, Android, ...</li>
+          <li>Read RFC 5545: it's open!</li>
+          <li></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>ICalendar - Overview</h2>
+        <ol>
+          <li>Version 1.0 from 1997</li>
+          <li>Current Version 2.0 since 2009</li>
+          <li>Includes:
+            <ol>
+              <li><b>events</b> & <b>time zones</b></li>
+              <li>journal entries, alarms, TODOs, free/busy times</li>
+            </ol>
+          </li>
+          <li></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>ICalendar - Example</h2>
+          <pre>
+            <code>BEGIN:VCALENDAR</code>
+            <code>VERSION:2.0</code>
+            <code>CALSCALE:GREGORIAN</code>
+            <code>X-WR-CALNAME:FOSSASIA Talks</code>
+            <code>BEGIN:VTIMEZONE</code>
+            <code>TZID:Asia/Singapore</code>
+            <code><span class="comment">... removed lines ...</span></code>
+            <code>END:VTIMEZONE</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>ICalendar - Example - Page 2</h2>
+          TODO: change dtstart and dtend
+          <pre>
+            <code>BEGIN:VEVENT</code>
+            <code>UID:example-event1@FOSSASIA2022</code>
+            <code>SUMMARY:Nicco's Talk about ICAL events!</code>
+            <code>DTSTART;TZID=Asia/Singapore:20220304T000000</code>
+            <code>DTEND;TZID=Asia/Singapore:20220304T010000</code>
+            <code>END:VEVENT</code>
+            <code>END:VCALENDAR</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2></h2>
+        <ol>
+          <li></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2></h2>
+        <ol>
+          <li></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2></h2>
     </section>
 
     <section class="slide">
