@@ -114,43 +114,137 @@
 
     <section class="slide">
         <h2>ICalendar - Example - Page 2</h2>
-          TODO: change dtstart and dtend
-          <pre>
-            <code>BEGIN:VEVENT</code>
-            <code>UID:example-event1@FOSSASIA2022</code>
-            <code>SUMMARY:Nicco's Talk about ICAL events!</code>
-            <code>DTSTART;TZID=Asia/Singapore:20220304T000000</code>
-            <code>DTEND;TZID=Asia/Singapore:20220304T010000</code>
-            <code>END:VEVENT</code>
-            <code>END:VCALENDAR</code>
+        TODO: change dtstart and dtend
+        <pre>
+          <code>BEGIN:VEVENT</code>
+          <code>UID:example-event1@FOSSASIA2022</code>
+          <code>SUMMARY:Nicco's Talk about ICAL events!</code>
+          <code>DTSTART;TZID=Asia/Singapore:20220304T000000</code>
+          <code>DTEND;TZID=Asia/Singapore:20220304T010000</code>
+          <code>END:VEVENT</code>
+          <code>END:VCALENDAR</code>
         </pre>
     </section>
 
     <section class="slide">
-        <h2></h2>
+        <h2>ICalendar - Example - Page 3</h2>
+        <pre>
+          <code>BEGIN:VEVENT</code>
+          <code><span class="comment">... removed lines ...</span></code>
+          <code>DTSTART:202203<mark class="important">07</mark>T120000Z</code>
+          <code>RRULE:FREQ=WEEKLY;BYDAY=MO</code>
+          <code>EXDATE:202203<mark class="important">14</mark>T120000Z</code>
+          <code>RDATE:202203<mark class="important">26</mark>T02000Z</code>
+          <code>END:VEVENT</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>recurring_ical_events - History</h2>
         <ol>
+          <li>Federated calendar system: Open-Web-Calendar</li>
+          <li>user-controlled multi-source calendar, no self-hosting required</li>
+          <li><a href="https://openwebcalendar.herokuapp.com">openwebcalendar.herokuapp.com</a></li> TODO: check URL
+          <li>Issue: When do ICAL events take place?</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>recurring_ical_events - History</h2>
+        <ol>
+          <li>Decision: new library <code>python-recurring-ical-events</code></li>
+          <li>License: LGPL, open-source</li>
+          <li>TODO: insert Badges</li>
+          <li>Advantage:
+            <ol>
+              <li>Encapsulated, testable behaviour</li>
+              <li>Other users ➡ feedback</li>
+              <li>Higher quality!</li>
+            </ol>
+          </li>
+          <li>Base: <code>icalendar</code></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>recurring_ical_events - Testing</h2>
+        <ol>
+          <li>Test-Driven-Development (TDD)</li>
+          <li>Knowledge no lost but increasing over time</li>
+          <li>Changes not destructive</li>
+          <li>long-term maintainability</li>
+          <li>increasing quality with feedback</li>
+          <li>Using pytest, more that 400 test cases</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>recurring_ical_events - Testing</h2>
+        <ol>
+          <li>Find an issue</li>
+          <li>Get example ICS file</li>
+          <li>Write tests</li>
+          <li>Implement change</li>
+        </ol>
+        <pre>
+            <code>def test_sequence_is_not_present(calendars):</code>
+            <code>    events = calendars.issue_15_duplicated_events.at("20130803")</code>
+            <code>    assert len(events) == 3</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Related Work</h2>
+        <ol>TODO: links
+          <li>icalendar</li>
+          <li>icalevents</li>
+          <li>x-wr-timezone</li>
+          <li>open-web-calendar</li>
+          <li>RFC 5545</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Future</h2>
+        <ol>
+          <li>Open an Issue!</li>
+          <li>Command line interface?</li>
+          <li>zoneinfo time zones</li>
           <li></li>
         </ol>
     </section>
 
     <section class="slide">
-        <h2></h2>
+        <h2>Questions!</h2>
         <ol>
-          <li></li>
+          <li>e.g. Your experience with ICAL, project ideas, contribution practice, CI, testing, pytest?</li>
+          <li>Hands-on session next: <a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li> TODO: Gist
+        </ol>
+    </section>
+
+
+    <section class="slide">
+        <h2>Hands On!</h2>
+        <ol>
+          <li>Example program: <a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li>
+          <li>Install Python3 and pip</li>
+          <li>Run <pre><code>pip install recurring-ical-events</code></pre></li>
         </ol>
     </section>
 
     <section class="slide">
-        <h2></h2>
+        <h2>Hands On!</h2>
+        <pre>
+          <code>import icalendar, recurring_ical_events</code>
+          <code>from urllib.request import urlopen</code>
+          <code>ical_string = urlopen(<mark>"http://tinyurl.com/y24m3r8f"</mark>).read()</code>
+          <code>calendar = icalendar.Calendar.from_ical(ical_string)</code>
+          <code>events = recurring_ical_events.of(calendar).at(<mark>(2022, 3)</mark>)</code>
+          <code>for event in events:</code>
+          <code>    print("start {} summary {}".format(event["DTSTART"].dt, event.get("SUMMARY")))</code>
+        </pre>
     </section>
 
-    <section class="slide">
-        <h2></h2>
-    </section>
-
-    <section class="slide">
-        <h2></h2>
-    </section>
 
     <section class="slide">
         <h2>Plain text on your slides</h2>
