@@ -22,9 +22,9 @@
         <h2>ICalendar Events with Python</h2>
         <p>by <a href="https://niccokunzmann.github.io">Nicco Kunzmann</a></p>
         <figure>
-            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+            <img class="cover" src="pictures/cat.jpg" alt="Cat next to my phone">
             <figcaption class="copyright right white">
-                <a href="https://fiftyfootshadows.net">© John Carey</a>
+                <a href="https://niccokunzmann.github.io">© Nicco Kunzmann</a>
             </figcaption>
         </figure>
         
@@ -54,10 +54,11 @@
         <h2>Structure</h2>
         <p class="note">Ask questions right away, I will answer them when it fits! (write them to me).</p>
         <ol>
-            <li>History & Theory</li>
-            <li>Practical Example</li>
-            <li>Q & A session</li>
-            <li>End: chat and hands-on session</li>
+            <li>ICalendar</li>
+            <li>The recurring_ical_events library</li>
+            <li>Related Work</li>
+            <li>Questions and Answers</li>
+            <li>End: Chat and Hands-On Session</li>
         </ol>
         
                 <!-- TODO: add link to presentation -->
@@ -131,10 +132,10 @@
         <pre>
           <code>BEGIN:VEVENT</code>
           <code><span class="comment">... removed lines ...</span></code>
-          <code>DTSTART:202203<mark class="important">07</mark>T120000Z</code>
+          <code>DTSTART:202203<mark>07</mark>T120000Z</code>
           <code>RRULE:FREQ=WEEKLY;BYDAY=MO</code>
-          <code>EXDATE:202203<mark class="important">14</mark>T120000Z</code>
-          <code>RDATE:202203<mark class="important">26</mark>T02000Z</code>
+          <code>EXDATE:202203<mark>14</mark>T120000Z</code>
+          <code>RDATE:202203<mark>26</mark>T02000Z</code>
           <code>END:VEVENT</code>
         </pre>
     </section>
@@ -187,19 +188,20 @@
           <li>Implement change</li>
         </ol>
         <pre>
-            <code>def test_sequence_is_not_present(calendars):</code>
-            <code>    events = calendars.issue_15_duplicated_events.at("20130803")</code>
-            <code>    assert len(events) == 3</code>
+            <code>def test_only_one_event_present(calendars):</code>
+            <code>    events = calendars.issue_1.at("20130803")</code>
+            <code>    assert len(events) == 1, "second event moved"</code>
         </pre>
     </section>
 
     <section class="slide">
         <h2>Related Work</h2>
         <ol>TODO: links
-          <li>icalendar</li>
-          <li>icalevents</li>
-          <li>x-wr-timezone</li>
-          <li>open-web-calendar</li>
+          <li>icalendar - read and write ICalendar files</li>
+          <li>icalevents - same use-case as recurring_ical_events</li>
+          <li><a href="https://icspy.readthedocs.io/en/stable/">icspy</a> - create simple events</li>
+          <li>x-wr-timezone - correct X-WR-TIMEZONE issues</li>
+          <li>open-web-calendar - display ICS files as web page</li>
           <li>RFC 5545</li>
         </ol>
     </section>
@@ -241,10 +243,35 @@
           <code>calendar = icalendar.Calendar.from_ical(ical_string)</code>
           <code>events = recurring_ical_events.of(calendar).at(<mark>(2022, 3)</mark>)</code>
           <code>for event in events:</code>
-          <code>    print("start {} summary {}".format(event["DTSTART"].dt, event.get("SUMMARY")))</code>
+          <code>    print("start {} summary {}".format(event["DTSTART"].dt,</code>
+          <code>                                       event.get("SUMMARY")))</code>
         </pre>
     </section>
 
+
+    <section class="slide" id="see-more">
+        <h2>
+          Thanks
+        </h2>
+        <ol>
+          <li>
+            <img src="pictures/logo.svg" alt="Shower logo">
+            <a href="https://github.com/shower/shower">This presentation was built using shower.</a>
+          </li>
+          
+                <!-- TODO: add cc-by-sa -->
+        </ol>
+        <style>
+            #see-more h2 {
+                font-size: 100px
+            }
+
+            #see-more img {
+                width: 0.72em;
+                height: 0.72em;
+            }
+        </style>
+    </section>
 
     <section class="slide">
         <h2>Plain text on your slides</h2>
@@ -365,32 +392,8 @@
         </ol>
     </section>
 
-    <section class="slide" id="see-more">
-        <h2>
-          Thanks
-        </h2>
-        <ol>
-          <li>
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">This presentation was built using shower.</a>
-          </li>
-          
-                <!-- TODO: add cc-by-sa -->
-        </ol>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
-
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
-    </section>
-
     <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+        <a href="https://github.com/niccokunzmann/ical-talk-fossasia-2022">Fork me on GitHub</a>
     </footer>
 
     <div class="progress"></div>
