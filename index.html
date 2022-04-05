@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         .shower {
             --slide-ratio: calc(16 / 9);
@@ -39,20 +40,21 @@
             #cover p {
                 margin: 10px 0 0;
                 text-align: center;
-                color: white;
+                color: black;
                 font-style: italic;
                 font-size: 20px;
             }
 
             #cover p a {
-                color: white;
+                color: black;
+                text-decoration: none;
             }
         </style>
     </section>
 
     <section class="slide">
         <h2>Structure</h2>
-        <p class="note">Ask questions right away, I will answer them when it fits! (write them to me).</p>
+        <p class="note">Are you curious about something? Ask questions instantly so I can fit them in.</p>
         <ol>
             <li>ICalendar</li>
             <li>The recurring_ical_events library</li>
@@ -68,9 +70,17 @@
         <h2>About Nicco Kunzmann</h2>
         <ul>
           <li>Website: <a href="https://niccokunzmann.github.io">niccokunzmann.github.io</a></li>
-          <li>Living in eco-village in Wales/UK</li>
-          - TODO: photo yurt
+          <li>Living in eco-village "Tipi Valley" in Wales/UK with my family</li>
         </ul>
+    </section>
+
+    <section class="slide">
+        <figure>
+            <img class="cover width" src="pictures/programming.jpg" alt="Sitting and programming in front of the burner.">
+            <figcaption class="copyright right white">
+                <a href="">© Kirstin Heidler</a>
+            </figcaption>
+        </figure>
     </section>
 
     <section class="slide">
@@ -79,8 +89,7 @@
           <li>Sharing of calendar events around the world</li>
           <li>Files: <code>.ics</code></li>
           <li>Used by: Nextloud, Eventyay, Thunderbird, Android, ...</li>
-          <li>Read RFC 5545: it's open!</li>
-          <li></li>
+          <li>Open Specifiation: RFC 5545</li>
         </ol>
     </section>
 
@@ -95,12 +104,11 @@
               <li>journal entries, alarms, TODOs, free/busy times</li>
             </ol>
           </li>
-          <li></li>
         </ol>
     </section>
 
     <section class="slide">
-        <h2>ICalendar - Example</h2>
+        <h2>ICalendar - Examples - Page 1</h2>
           <pre>
             <code>BEGIN:VCALENDAR</code>
             <code>VERSION:2.0</code>
@@ -114,28 +122,28 @@
     </section>
 
     <section class="slide">
-        <h2>ICalendar - Example - Page 2</h2>
-        TODO: change dtstart and dtend
+        <h2>ICalendar - Examples - Page 2</h2>
         <pre>
           <code>BEGIN:VEVENT</code>
-          <code>UID:example-event1@FOSSASIA2022</code>
+          <code>UID:recurring-ical-events@FOSSASIA2022</code>
           <code>SUMMARY:Nicco's Talk about ICAL events!</code>
-          <code>DTSTART;TZID=Asia/Singapore:20220304T000000</code>
-          <code>DTEND;TZID=Asia/Singapore:20220304T010000</code>
+          <code>DTSTART;TZID=Asia/Singapore:20220408T213000</code>
+          <code>DTEND;TZID=Asia/Singapore:20220408T215500</code>
+          <!--<code>URL:https://eventyay.com/e/6b901f56/session/7507</code>-->
           <code>END:VEVENT</code>
           <code>END:VCALENDAR</code>
         </pre>
     </section>
 
     <section class="slide">
-        <h2>ICalendar - Example - Page 3</h2>
+        <h2>ICalendar - Examples - Page 3 - Lunch with Friends</h2>
         <pre>
           <code>BEGIN:VEVENT</code>
           <code><span class="comment">... removed lines ...</span></code>
           <code>DTSTART:202203<mark>07</mark>T120000Z</code>
           <code>RRULE:FREQ=WEEKLY;BYDAY=MO</code>
           <code>EXDATE:202203<mark>14</mark>T120000Z</code>
-          <code>RDATE:202203<mark>26</mark>T02000Z</code>
+          <code>RDATE:202203<mark>26</mark>T14000Z</code>
           <code>END:VEVENT</code>
         </pre>
     </section>
@@ -220,7 +228,7 @@
         <h2>Questions!</h2>
         <ol>
           <li>e.g. Your experience with ICAL, project ideas, contribution practice, CI, testing, pytest?</li>
-          <li>Hands-on session next: <a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li> TODO: Gist
+          <li>Hands-on session next: <br/><a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li> TODO: Gist
         </ol>
     </section>
 
@@ -228,7 +236,7 @@
     <section class="slide">
         <h2>Hands On!</h2>
         <ol>
-          <li>Example program: <a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li>
+          <li>Example program: <br/><a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li>
           <li>Install Python3 and pip</li>
           <li>Run <pre><code>pip install recurring-ical-events</code></pre></li>
         </ol>
@@ -251,12 +259,25 @@
 
     <section class="slide" id="see-more">
         <h2>
-          Thanks
+          Thanks for ...
         </h2>
         <ol>
           <li>
             <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">This presentation was built using shower.</a>
+            <a href="https://github.com/shower/shower">shower - the presentation engine</a>
+          </li>
+          <li>
+              FOSSASIA Summit 2022 - where this talk was held and open-source
+              enthusiasts meet.
+          </li>
+          <li>
+              The creators of Python, my teachers, life in general,
+              your attention, the GPL, the support of my family, the
+              smartphone apps I use for development. piwheels.com,
+              having space for gratitude in  my heart.
+          </li>
+          <li>
+              
           </li>
           
                 <!-- TODO: add cc-by-sa -->
@@ -273,6 +294,7 @@
         </style>
     </section>
 
+<!--
     <section class="slide">
         <h2>Plain text on your slides</h2>
         <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
@@ -390,7 +412,7 @@
             <li class="next">But it will work only once</li>
             <li class="next">Nobody wants to see the same joke twice</li>
         </ol>
-    </section>
+    </section> -->
 
     <footer class="badge">
         <a href="https://github.com/niccokunzmann/ical-talk-fossasia-2022">Fork me on GitHub</a>
