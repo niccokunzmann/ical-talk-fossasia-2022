@@ -1,6 +1,6 @@
 This is the talk at the fossasia summit 2022 about the recurring ical events library.
 - See it online: https://niccokunzmann.github.io/ical-talk-fossasia-2022/
-- Look at the PDF: [ICalendar Events with Python.pdf](ICalendar Events with Python.pdf)
+- Look at the PDF: [ICalendar Events with Python.pdf](ICalendar%20Events%20with%20Python.pdf)
 
 
 
