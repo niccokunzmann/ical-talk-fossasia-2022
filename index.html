@@ -62,9 +62,9 @@
             <li>Questions and Answers</li>
             <li>End: Chat and Hands-On Session</li>
         </ol>
-        
-                <!-- TODO: add link to presentation -->
-        Slides: <a href="https://niccokunzmann.github.io/ical-slides-fossasia-2022">niccokunzmann.github.io/ical-slides-fossasia-2022</a>
+        <p>
+            Slides: <a href="https://niccokunzmann.github.io/ical-slides-fossasia-2022">niccokunzmann.github.io/ical-slides-fossasia-2022</a>
+        </p>
     </section>
     <section class="slide">
         <h2>About Nicco Kunzmann</h2>
@@ -153,7 +153,7 @@
         <ol>
           <li>Federated calendar system: Open-Web-Calendar</li>
           <li>user-controlled multi-source calendar, no self-hosting required</li>
-          <li><a href="https://openwebcalendar.herokuapp.com">openwebcalendar.herokuapp.com</a></li> TODO: check URL
+          <li><a href="https://openwebcalendar.herokuapp.com">openwebcalendar.herokuapp.com</a></li>
           <li>Issue: When do ICAL events take place?</li>
         </ol>
     </section>
@@ -161,9 +161,7 @@
     <section class="slide">
         <h2>recurring_ical_events - History</h2>
         <ol>
-          <li>Decision: new library <code>python-recurring-ical-events</code></li>
-          <li>License: LGPL, open-source</li>
-          <li>TODO: insert Badges</li>
+          <li>Decision: <a href="https://pypi.org/project/recurring-ical-events/">new library <code>python-recurring-ical-events</code></a></li>
           <li>Advantage:
             <ol>
               <li>Encapsulated, testable behaviour</li>
@@ -171,6 +169,12 @@
               <li>Higher quality!</li>
             </ol>
           </li>
+          <li>
+              <img src="pictures/build.svg" />
+              <img src="pictures/pypi.svg" />
+              <img src="pictures/downloads.svg" />
+          </li>
+          <li>License: LGPL, open-source</li>
           <li>Base: <code>icalendar</code></li>
         </ol>
     </section>
@@ -179,11 +183,11 @@
         <h2>recurring_ical_events - Testing</h2>
         <ol>
           <li>Test-Driven-Development (TDD)</li>
-          <li>Knowledge no lost but increasing over time</li>
+          <li>Knowledge not lost but increasing over time</li>
           <li>Changes not destructive</li>
           <li>long-term maintainability</li>
           <li>increasing quality with feedback</li>
-          <li>Using pytest, more that 400 test cases</li>
+          <li>Using pytest, more than 600 tests</li>
         </ol>
     </section>
 
@@ -197,20 +201,20 @@
         </ol>
         <pre>
             <code>def test_only_one_event_present(calendars):</code>
-            <code>    events = calendars.issue_1.at("20130803")</code>
-            <code>    assert len(events) == 1, "second event moved"</code>
+            <code>    events = calendars.issue_1.at("20220408")</code>
+            <code>    assert len(events) == 1</code>
         </pre>
     </section>
 
     <section class="slide">
         <h2>Related Work</h2>
-        <ol>TODO: links
-          <li>icalendar - read and write ICalendar files</li>
-          <li>icalevents - same use-case as recurring_ical_events</li>
+        <ol>
+          <li><a href="https://pypi.org/project/icalendar">icalendar</a> - read and write ICalendar files</li>
+          <li><a href="https://pypi.org/project/icalevents">icalevents</a> - same use-case as recurring_ical_events</li>
           <li><a href="https://icspy.readthedocs.io/en/stable/">icspy</a> - create simple events</li>
-          <li>x-wr-timezone - correct X-WR-TIMEZONE issues</li>
-          <li>open-web-calendar - display ICS files as web page</li>
-          <li>RFC 5545</li>
+          <li><a href="https://pypi.org/project/x-wr-timezone">x-wr-timezone</a> - correct X-WR-TIMEZONE issues</li>
+          <li><a href="https://openwebcalendar.herokuapp.com/">open-web-calendar</a> - display ICS files as web page</li>
+          <li><a href="https://datatracker.ietf.org/doc/html/rfc5545">RFC 5545</a></li>
         </ol>
     </section>
 
@@ -219,8 +223,7 @@
         <ol>
           <li>Open an Issue!</li>
           <li>Command line interface?</li>
-          <li>zoneinfo time zones</li>
-          <li></li>
+          <li>Generation of VTIMEZONE from Python time zones?</li>
         </ol>
     </section>
 
@@ -228,7 +231,7 @@
         <h2>Questions!</h2>
         <ol>
           <li>e.g. Your experience with ICAL, project ideas, contribution practice, CI, testing, pytest?</li>
-          <li>Hands-on session next: <br/><a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li> TODO: Gist
+          <li>Hands-on session next: <br/><a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li>
         </ol>
     </section>
 
@@ -267,18 +270,16 @@
             <a href="https://github.com/shower/shower">shower - the presentation engine</a>
           </li>
           <li>
-              FOSSASIA Summit 2022 - where this talk was held and open-source
-              enthusiasts meet.
+              <a href="https://eventyay.com/e/6b901f56">FOSSASIA Summit 2022</a>
           </li>
           <li>
-              The creators of Python, my teachers, life in general,
+              Python, my teachers,
               your attention, the GPL, the support of my family, the
-              smartphone apps I use for development. piwheels.com,
-              having space for gratitude in  my heart.
+              smartphone apps I use for development. <a href="https://www.piwheels.org/">piwheels.org</a>
           </li>
         </ol>
         <p>
-          This talk by Nicco Kunzmann is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="pitures/by-sa.svg">CC-BY-SA 4.0</a> License.
+          This talk by Nicco Kunzmann is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="pictures/by-sa.svg">CC-BY-SA 4.0</a> License.
         </p>
         <style>
             #see-more h2 {

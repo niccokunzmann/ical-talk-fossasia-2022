@@ -1,0 +1,1886 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALDESC:Event Calendar
+X-WR-CALNAME:FOSSASIA Summit 2022
+BEGIN:VEVENT
+SUMMARY:FOSSASIA Summit 2022
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T130000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T235500
+UID:6b901f56
+DESCRIPTION:Join us at the FOSSASIA Virtual Summit 2022 to learn about the
+  latest development in open source technologies and to connect with develo
+ pers\, tech communities\, and companies from around the world. The event w
+ ill take place from Thursday\, 7th April to Saturday\, 9th April.The FOSSA
+ SIA Summit is a unique event with a broad range of open technology topics 
+ such as web and mobile technologies\, Javascript\, Python\, Cloud Computin
+ g\, microservices\, AI\, machine learning\, open robotics\, databases\, di
+ gital privacy\, kernel\, hardware development\, global issues like open he
+ alth\, and climate change\, and how to achieve peace around the world.The 
+ first FOSSASIA event took place in 2009. Apart from established open sourc
+ e projects the FOSSASIA Summit is a place to discover upcoming developers 
+ and new projects in the open tech community in particular from Asia.
+LOCATION:https://eventyay.com/e/6b901f56
+ORGANIZER:The Summit is organized in cooperation between FOSSASIA and OpnT
+ ec. FOSSASIA develops Open Source software and hardware solutions with a g
+ lobal developer community from its base in Asia and organizes Open Technol
+ ogy events around the year. The mission of FOSSASIA is to improve people's
+  lives by sharing open technologies, knowledge and resources and building 
+ a sustainable FOSS ecosystem. Projects include conversational AIs, science
+  applications and event management tools. The organization supports its m
+ ost promising teams through a business incubator and runs coding programs 
+ and development contests like Codeheat to grow the developer community.FO
+ SSASIA Key FactsDevelops open source projects since 2009 with 5000+ regis
+ tered developers on GitHubTrains 3000+ developers through coding programs
+  annuallyOrganizes dozens of meetings at developer events, hackathons and
+  workshops throughout Asia every yearShares information with 40,000+ devel
+ opers on mailing lists and social mediaBecome a supporter of the work of F
+ OSSASIA here.
+URL:https://eventyay.com/e/6b901f56
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Singapore
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Welcome to the FOSSASIA Summit 2022
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T130000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T132000
+UID:7554-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  We are glad to see you at the FOSSASIA Summit 
+ 2022!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7554
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Hardware for the Better - Make Peace\, Solving the Climate Cr
+ isis and Our Global Issues
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T132500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T133500
+UID:7498-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Let's talk about how Open Hardware can change 
+ things for the better. How can it help us to make peace but fight the clim
+ ate crisis. Bold action is needed. What do we need to do now?
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7498
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keynote: Empowering Open Source Communities in APAC
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T133500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T135500
+UID:7672-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  This session will focus on empowering open sou
+ rce communities in APAC. 
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7672
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Skills Challenge Prizes
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T135500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T140000
+UID:7684-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Please join us!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7684
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Panel - Code Without Barriers: Addressing the Gender Gap in Tech
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T140000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T145500
+UID:7682-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Discussion on how to enable female developers\
+ , coders\, and other technical talent to contribute towards inclusive econ
+ omic growth\, encourage innovation and better reflect the societal makeup 
+ of their region.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7682
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to automate your data pipelines with Apache Airflow
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T150000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T154000
+UID:7605-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  There are many open source tools to help you w
+ ith the different steps you typically need to extract insights from your d
+ ata. As you scale and grow your use of data\, keeping on top of the steps 
+ can be difficult. Apache Airflow is an open source orchestration tool that
+  helps you to programmatically create workflows in Python that will help y
+ ou run\, schedule\, monitor and mange data engineering pipelines - no more
+  manually managing those cron jobs! In this session\, we will take a look 
+ at the architecture of Apache Airflow\, and walk you through creating your
+  first workflow and how you can use a growing number of provider libraries
+  to help you work with other open source tools and services. This session 
+ is intended for beginners/those wanting to learn more about this open sour
+ ce project.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7605
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keynote: Five Things You Can Do To Make It Easier For Companies To
+  Adopt And Support Your Project
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T154500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T161000
+UID:7673-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Your open source project has a few commercial 
+ users\, but you'd like to get them involved as advocates\, contributors\, 
+ or sponsors. Good documentation\, beginner-friendly issues\, a friendly co
+ mmunity - these things are important\, but you have to go further if you w
+ ant to grow support at the organizational level. Fortunately\, there are s
+ ome relatively simple steps you can take that will make it easier for comp
+ anies to support your project. I will present an overview of five things y
+ ou can do to enable and encourage commercial support.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7673
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Careers in Open Source
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T161500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T171000
+UID:7670-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  With more organizations and even governments u
+ sing FOSS\, demand for people with appropriate skills and awareness is gro
+ wing. This session will explore the environment for jobs\, what skills are
+  in demand\, and what people can do to prepare for them.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7670
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keynote: Supply Chain Security with sigstore
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T171500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T174000
+UID:7660-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Many have been flooded with news about “Supp
+ ly Chain Security”. Why are end users\, enterprises\, and governments cl
+ amoring for it and why do I\, as an open source contributor\, need to care
+  about it? Is this something that can be implemented easily? Enter sigstor
+ e\, a project coming out of the OpenSSF (Open Source Security Foundation).
+  The main goal of sigstore is to make signing artifacts\, validating depen
+ dencies\, and monitoring dependency releases\, as easy as possible for dev
+ elopers. If we can lower the barrier of entry for open source projects to 
+ release software securely\, we can make the world a better place.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7660
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sovereign Cloud Stack - more than yet another cloud stack
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T174500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T182500
+UID:7568-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The Sovereign Cloud Stack (SCS) is built upon 
+ the shoulders of giants: With proven technology suchas OpenStack and Kuber
+ netes the SCS project is building a modular software stack. SCS is much mo
+ rethan just another cloud stack - much rather SCS defines standards as par
+ t of a community process inwhich CSPs work together on their use-cases whi
+ le also providing a reference implementation.The talk will give an overvie
+ w of the architecture of the Sovereign Cloud Stack.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7568
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Considerations for Mandating Open Interfaces
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T183000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T185500
+UID:7675-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  As the Internet has become more and more cruci
+ al to daily life and the economy\, coupled with growing concerns about com
+ petition online\, there has been increasing discussion about mandating int
+ eroperability among software services and systems. The technical interface
+  required to achieve such an outcome is often implicit\, and one of the ma
+ in aims of this paper is to make it explicit and bring its implications in
+ to the open.  This mandating of open interfaces is important\, because 
+ – done well – it brings economic\, social\, and technical benefits\, r
+ educes the risk of market failure and stimulates sustainable innovation. B
+ ut done poorly\, it can threaten these outcomes and jeopardize other polic
+ y goals\, such as privacy\, security\, and the resilience of systems.  
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7675
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Overview of the CCLAW L4 project
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T190000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T192500
+UID:7643-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Following the theme “code is law”\, L4 is 
+ a domain-specific specification language that facilitates semantically rig
+ orous formalization of legal expressions found in legislation and contract
+ s. In my talk\, I will demo the working pieces (as of late 2021 / early 20
+ 22): a high-level controlled natural language\, a transpiler to reasoning 
+ back-ends including static analysis / formal verification and an expert sy
+ stem web app\, grounded in a real-world case study.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7643
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Natural Language Processing made easy w/ Apache Hop and Neo4j.
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T193000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T195500
+UID:7584-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Is it difficult to develop natural language pr
+ ocessing (NLP) applications?No\, it's easy and interesting.In this session
+ \, I will try to do NLP using Neo4j graph database.And will also use Apac
+ he Hop for data collection. What is Natural Language Processing (NLP)?Why 
+ import text into a graph database?Why use a graph database?What is Apache 
+ Hop?I will explain the NLP and Graph in an easy-to-understand manner.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7584
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Common Voice: Making Voice Recognition Open & Accessible to Everyo
+ ne
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T200000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T202500
+UID:7529-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Voice is natural\, voice is human. That’s wh
+ y Mozilla is excited about creating usable voice technology for our machin
+ es. But to create voice systems\, developers need an extremely large amoun
+ t of voicedata.Most of the data used by large companies isn’t available 
+ to the majority of people. Mozilla think that stifles innovation. Common V
+ oice is a project to help make voice recognition open and accessible to ev
+ eryone. Mozilla Common Voice is an initiative to help teach machines how r
+ eal people speak.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7529
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Accelerate Your Data Augmentation Pipeline with Kornia
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T203000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T204500
+UID:7586-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  As a vital step in modern deep learning pipeli
+ nes\, data augmentation can significantly increase the internal variation 
+ of a dataset. With many different combination of tasks and applications (e
+ .g. instance segmentation\, contrastive learning)\, the data augmentation 
+ strategies variate from one task to another. This session presents Kornia 
+ augmentation with aim at providing a simple and integral augmentation pip
+ eline for different tasks and applications.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7586
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kornia: Low level and Differentiable Computer Vision
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T204500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T212500
+UID:7585-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Kornia is a library that implements state-of-t
+ he-art and classical Computer Vision algorithms in PyTorch. The library is
+  written from scratch using pure PyTorch operators and uses the auto-rever
+ se differentiable engine to allow the user to plug any component within ne
+ ural networks. During the talk we'll cover the different principle designs
+  and functionalities found in each of the components of the library. For m
+ ore information about the project\, checkout the website: www.kornia.org T
+ o learn about our coding activities\, visit our GitHub: https://github.co
+ m/kornia/kornia
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7585
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Betamax to VCR: harden your API integration testing with FOSS
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T213000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T222500
+UID:7694-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Integration tests with APIs are notoriously di
+ fficult. Do you hit production? Do you mock the JSON responses and update 
+ them each time your endpoints change?There is a solid solution that can so
+ lve these problems in my language of choice: PHP. The Open Source library 
+ I found is inspired by another OSS library written in Ruby. In this talk\,
+  I'll talk through the library\, the power of OSS\, and how you can write 
+ super-fast API integrations using the power of these tools.FOSS Libraries 
+ included in this talk are:PHP-VCR: https://github.com/php-vcr/php-vcrVCR (
+ Ruby): https://github.com/vcr/vcrPEST: https://github.com/pestphp/pest
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7694
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Run your own customized office with ONLYOFFICE
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T223000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T232500
+UID:7706-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  ONLYOFFICE is an international open-source pro
+ ject that revolves around collaborative officesoftware. It’s a secure of
+ fice package with powerful editors for text documents\, spreadsheets\,pres
+ entations and fillable forms that are available on all popular platforms\,
+  including web\,mobile and desktop.With ONLYOFFICE\, users can easily crea
+ te a collaborative environment by integrating theONLYOFFICE editors with v
+ arious document management systems and file-sharing platforms\,such as Nex
+ tcloud\, ownCloud\, Redmine\, Moodle\, Chamilo\, Alfresco\, SharePoint\, N
+ uxeo\, Plone\,etc. In other words\, ONLYOFFICE allows users to create a vi
+ rtual workspace where they canedit and co-author documents with others in 
+ real time\, share them online and keep their fileswithin easy reach.In thi
+ s session\, we will discuss:What the ONLYOFFICE suite is and what features
+  it hasWhat customization options ONLYOFFICE providesWhat ONLYOFFICE plugi
+ ns are and how they can extend the functionality of the suiteHow to create
+  plugins for ONLYOFFICE and get them published in App Directory
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7706
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Draw your record and hear how it sounds
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220407T233000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220407T235500
+UID:7656-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Since Edison invented the phonograph in 1877 t
+ he relationship of sound and its storage medium inspired countless great m
+ inds! In our workshop we plan to co-design an adapter for turntables and o
+ ther rotating devices that transforms drawings into sound. We will be usin
+ g the PSLab (https://pslab.io/) as interface to the computer\, KiCAD (http
+ s://www.kicad.org/) for the PCB\, and Tidal Cycles (https://tidalcycles.or
+ g/) for sound generation.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7656
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Good Morning FOSSASIA - Day 2
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T100000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T100500
+UID:7722-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Good morning FOSSASIA - Day 2. We are glad to 
+ welcome you to day 2. Learn about the highlights of today and welcome spea
+ kers and friends at the summit.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7722
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Brief History of Linux CPU Scheduler
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T101000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T102500
+UID:7587-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Operating system in 21th century\, especially 
+ GNU/Linux\, plays a solid foundation for various computing devices\, rangi
+ ng from datacenter to embedded systems. CPU scheduling\, one of the core s
+ ervices provided by an operating system\, is extremely complicated in Linu
+ x such that it can provide decent throughput/latency for the aforementione
+ d usages. In this talk\, we introduce the evolution of the CPU scheduler i
+ n Linux\, starting from the very beginning scheduler (a scheduler which pi
+ cks task from a runqueue composed of an array) to the CFS (Completely Fair
+  Scheduler). Besides\, key features in the CFS are also covered in the tal
+ k\, e.g.\, PELT (Per-Entity Load Tracking).
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7587
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Evolution of Linux I/O Models: A Path towards IO_uring
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T103000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T105500
+UID:7564-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Traditional I/O syscalls in Linux have general
+ ly been implemented as a synchronous mechanism. These calls wait in user s
+ pace until the I/O request has been completed. Besides blocking\, each sys
+ call will undergo two-time mode switches\, whose overhead cannot be ignore
+ d after Meltdown and Spectre mitigation. Some syscall–heavy applications
+  have been reported to be slowed down to 30% on KPTI-protected systems. Bo
+ th blocking and mode switch seriously hamper the performance\, especially 
+ for I/O-intensive applications (e.g. HTTP daemons and database servers). T
+ o suppress blocking time of userland procedure and overhead from mode swit
+ ch\, it is common to adopt asynchronous I/O model. In Linux 2.5\, Linux na
+ tive AIO (libaio) was introduced\, which is a kernel-level implementation 
+ and performs better than POSIX AIO. However\, it only supports direct I/O\
+ , limits the file size\, and other more and more restrictions. They lead l
+ ibaio hard to use and inefficient. In Linux 5.1\, Jens Axboe proposed an a
+ synchronous I/O interface: io_uring which makes Linux native AIO more effi
+ cient and extends its applicability. In this talk\, we will introduce the 
+ evolution of Linux I/O models. Further\, we will detailly explain the desi
+ gn\, implementation\, and optimization of io_uring.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7564
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Skills Challenge Prizes
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T105500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T110000
+UID:7685-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Please join us!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7685
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workshop with open source database on Azure
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T110000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T115500
+UID:7681-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Learn how to setup your app in the cloud.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7681
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:When Open Science meets Open Source 
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T120000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T125500
+UID:7504-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The development of open science aligns with op
+ en source software and hardware in both philosophy and practice. By keepin
+ g open\, engineers can share codes and scientists can share research desig
+ n. There is a layer of ethical concern in keeping our works open – so th
+ at transparency is ensured. However\, there are costs and challenges in ke
+ eping open. Open codes and data need storage spaces. Human labor is necess
+ ary to keep the open information in order. How to keep codes secure and ho
+ w to protect research subjects’ privacy in such open practices need to b
+ e carefully thought through and painstakingly implemented.  This panel aim
+ s to bring both scientists and FOSS practitioners into one virtual room\, 
+ exchanging experience and inspiring each other to address common concerns.
+   Issues to be discussed include\, but are not limited to:1.  From a repli
+ cation crisis to a development crisis 2.  Publish materials\, data\, and c
+ ode 3.  Preregister and submit registered reports4.  Conduct replications 
+ 5.  Collaborate6.  Foster skills to be open7.  Implement Transparency and 
+ Openness Promotion Guidelines8.  Incentivize practices to be open
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7504
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LibreOffice Technology\, a FOSS platform for personal productivity
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T130000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T132500
+UID:7508-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  LibreOfficewas announced in 2010 as a desktop 
+ productivity software for Windows\, macOS and Linux. Since 2011\, it has e
+ volved from a single desktop product to a technology platform supporting a
+ pplications for the desktop\, the cloud and mobile. All products share the
+  same engine\,which provides superior consistency. The goal of the present
+ ation is to present the different stages of this evolution.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keynote: How Oracle develops MySQL Database Service on its Cloud I
+ nfrastructure.
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T133000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T135500
+UID:7553-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  This session is a brief overview on How Oracle
+  develops MySQL Database Service (MDS) on its cloud infrastructure.Various
+  cloud patterns and services used to implement MDS which includes :- Contr
+ ol Plane- Data Plane and DP Agent- API- Workflow- Kiev- Lumberjack- Admin 
+ UI- Grafana Dashboard- Metrics- Runbooks- Metering- Sneak peak into MySQL 
+ Database services
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7553
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Extending MySQL Server Using Component Services
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T140000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T142500
+UID:7535-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The MySQL development team is constantly addin
+ g new and very useful component services. These can be leveraged by creati
+ ve component authors to produce useful MySQL server add-ons.In this sessio
+ n we will explore the basics of this infrastructure and various useful com
+ ponent services. We will also see an example component that leverages one 
+ of these services.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7535
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:InnoDB Storage Engine : What's new and exciting in MySQL-8.0
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T143000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T145500
+UID:7519-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  InnoDB is ACID compliant transactional Storage
+  Engine for MySQL database. InnoDB is default storage engine for MySQL sin
+ ce 5.5.InnoDB is being improved continuously since many years in MySQL and
+  MySQL 8.0\, which is current GA release of MySQL Server\, incorporates gr
+ eat improvements in InnoDb not only in functionalities but also in perform
+ ance.    To name few:        - Instant DDLs        - Clone for p
+ rovisioning.        - Page tracker for faster incremental backup.   
+      - New design for Partial BLOB storage/update (JSON) to increase per
+ formance.        - New REDO log design for performance improvements. 
+        - New UNDO logs design for easier management.        - Encry
+ ption of Tablespace/UNDO/REDO logs for better security.        - Atomi
+ c and Crash Safe DDL.        - New DD hosted in InnoDB.        - A
+ utomatic configuration of InnoDB parameters based on system resources.  
+       - And so on..        This talk aims to give a glimpse of abov
+ e features and many other improvements in InnoDB in MySQL 8.0.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7519
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Easy to manage the MySQL deployments 
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T150000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T152500
+UID:7480-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  MySQL deployment can be as simple as standalon
+ e\, or it can be traditional deployment with Replication.   InnoDB Cluste
+ r / Group Replication becomes the leading architecture for MySQL deploymen
+ t today.   The session is to cover different deployment automation approa
+ ches  including - Using MySQL Shell for ReplicaSet- Using MySQL Shell fo
+ r InnoDB Cluster and building ClusterSet for DR deployment- Building MySQL
+  InnoDB Cluster using MySQL Operator for Kubernetes.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7480
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PostgreSQL Distributed & Secure Database Ecosystem Building
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T153000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T154500
+UID:7637-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  As the most popular open source relational dat
+ abase in the world\, PostgreSQL keeps attracting the significant attention
+  it deserves. With the ever increasing data storage and query requirements
+ \, new challenges are brought forward for horizontal elastic expansion and
+  security of the PostgreSQL database. How to provide existing PostgreSQL d
+ atabases with incremental capabilities such as data sharding\, data encryp
+ tion and other functions is of great concern to many PostgreSQL users.This
+  session will focus on introducing how to empower PostgreSQL thanks to the
+  ecosystem provided by Apache ShardingSphere - an open source distributed 
+ database\, plus an ecosystem users and developers need for their database 
+ to provide a customized and cloud-native experience. ShardingSphere doesn'
+ t quite fit into the usual industry mold of a simple distributed database 
+ middleware solution. ShardingSphere recreates the distributed pluggable sy
+ stem\, enabling actual user implementation scenarios to thrive and contrib
+ uting valuable solutions to the community and the database industry.The ai
+ m of ShardingSphere is the Database Plus concept.Database Plus sets out to
+  build a standard layer and an ecosystem layer above the fragmented databa
+ se's basic services. A unified and standardized database usage specificati
+ on provides for upper-level applications\, and the challenges faced by bus
+ inesses due to underlying databases fragmentation get minimized as much as
+  possible. To link databases and applications\, it uses traffic and data r
+ endering and parsing. It provides users with enhanced core features\, such
+  as a distributed database\, data security\, database gateway\, and stress
+  testing.ShardingSphere uses a pluggable kernel architecture for Database 
+ Plus. That means there's modularity\, which provides flexibility for the u
+ ser.  Demos and notable use cases in production environments that are from
+  the Asia equivalents of FAANG (Facebook\, Amazon etc.) will be used to in
+ troduce the use and implementation of these functions for PostgreSQL datab
+ ases.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7637
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Civic Tech: An Asian Perspective 
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T155000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T161000
+UID:7532-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  There has been an emergence of initiatives tha
+ t take advantage of information and communication technologies to serve ci
+ vic purposes\, collectively referred to as civic technologies (Civic Tech)
+ . This phenomenon has been met with a rising interest in academia\, where 
+ Civic Tech has become an interdisciplinary field spanning across various d
+ isciplines such as social science\, political science\, and computer scien
+ ce. In this talk\, I first present a review of 224 papers from the ACM Dig
+ ital Library with a focus on Computer Supported Cooperative Work and Human
+ -Computer Interaction\, the key fields supporting the building of Civic Te
+ ch. Through this review\, I aim to discuss the concepts\, theories and gen
+ eral history of civic tech research. Next I introduce three cases of civic
+  tech development in Japan\, Singapore\,  and Taiwan. Through the discussi
+ on about actors involved in the cases\, I make suggestions about what part
+ icipatory mechanisms may facilitate citizen’s engagement in civic tech d
+ esign in Asian contexts. Following the presentation\, there will be intera
+ ctions with audiences in digital formats.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7532
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keynote: Cloud and Open Source - the future of IT / Open Source at
+  AWS
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T161500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T164000
+UID:7671-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  For over 20 years open source has been helping
+  Builders to innovate and develop solutions. Whether it is the tools they 
+ use to develop\, the libraries they combine within their applications\, or
+  the runtimes on which those applications are deployed - open source is pe
+ rvasive. In this session I want to share how we think about open source at
+  AWS\, and how we work backwards from our customers to provide Builders wi
+ th greater choice in how they develop and run their preferred open source 
+ technologies. Cloud is the tide that lifts all boats\, and together with o
+ pen source\, is the future of IT.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7671
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christmas time with Log4j
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T164500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T172500
+UID:7567-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Log4Shell / Log4j caused a big and noisy impac
+ t\, strategically wisein the Christmas and mid-season period. We were well
+  and successfullyprotected\, but still the issue kept us busy several time
+ s and forseveral days: * Are our infrastructures protected? * Are our prod
+ ucts affected?   * How we can help our customers andour community. We have
+  kept a diary about it\, whichin retrospect offers us\, and we assume many
+  others\, useful information and insights. Above all\, this is interesting
+  for people who are interested in how more security can be created with an
+ dthrough open source and a few good processes. Because the next incident i
+ s bound to happen. 
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7567
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to use online office suites and data storage to protect your p
+ rivacy
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T173000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T175500
+UID:7588-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  As we digitize and handle all kinds of informa
+ tion\, it is becoming more and more important to protect digital privacy. 
+ The problems are not only hacking risks. We need to deal with the legitima
+ te theft and control of privacy information by Big Tech and all Government
+ s. Our data needs to be handled properly. The right to properly manage our
+  data\, hardware\, software\, and social relationships as we intend is som
+ etimes referred to as "Digital Sovereignty". It is extremely necessary to 
+ monitor and regulate legally against Big Tech and Governments. Apart from 
+ them\, there are things we can do right now. Because we have great open so
+ urce tools. By combining various open-source software\, we can get innovat
+ ive technology while controlling data properly.In this talk\, I will first
+  summarize the main points regarding digital sovereignty.  Next\, as one o
+ f the means to manage a business and private data that office software has
+  covered\, how to use Collabora Online\, LibreOffice\, and Nextcloud to ge
+ t convenient innovation while preserving privacy. Finally\, I will show yo
+ u how to build those systems.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7588
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Improving Open Source Software Security
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T180000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T182500
+UID:7676-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Open Source Software (OSS) runs the world\, an
+ d that means attackers are attacking OSS.This talk will focus on some of t
+ he efforts ongoing to improve the security of OSS\, especially the Linux F
+ oundation's Open Source Security Foundation (OpenSSF). That includes free 
+ courses on developing secure software\, the OpenSSF Best Practices badge\,
+  and the Alpha-Omega project.We'll also discuss what you can do to improve
+  the security of the OSS you develop and reduce the risks when you select 
+ and use OSS.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7676
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aonyx: Improving privacy and freedom in Bluetooth-assisted contact
+  tracing with secure enclaves
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T183000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T185500
+UID:7614-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Aonyx further improves privacy in Singapore's 
+ hybrid contact-tracing assistance tool — TraceTogether — without impac
+ ting health and economic outcomes. It does so by serving as an honest brok
+ er to withhold contact and identity information until/unless contact trace
+ rs evaluate a user as being potentially exposed to SARS-CoV-2. It also rep
+ orts the fact of disclosure to each affected user and shares disclosure st
+ atistics publicly. The broker is in turn secured by hosting it inside a se
+ cure enclave in any of the major PaaS providers.Aonyx similarly facilitate
+ s the creation and use of free software / free hardware tokens for TraceTo
+ gether by serving as an honest broker\, in this case to protect the system
+ -wide AES key while generating the signed 15-minute rotating identifiers r
+ equired to participate in the BlueTrace Light protocol.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7614
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Improving the security and licensing of your software using OSS Re
+ view Toolkit
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T190000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T192500
+UID:7583-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The log4j breach made headlines across the wor
+ ld due to its impact and showed once more how the world runs on open sourc
+ e. But do you know which open source you rely on in your software or organ
+ ization?  In this talk Sankalpa and Thomas will present how you can use O
+ SS Review Toolkit (ORT) in your CI/CD workflows to see which FOSS dependen
+ cies are used\, do license/security compliance\, and generate SBOMs (softw
+ are bill of materials). Included in our talk will be a demonstration of OS
+ S Review Toolkit in GitLab CI and how its various features can be used to 
+ automated FOSS reviews requirements (incl. CycloneDX and SPDX SBOM generat
+ ion) and use crowdsourcing within an organization and the FOSS community t
+ o overcome challenges such as dependencies not detected\, incorrect licens
+ ing\, large amounts of scan results or missing/incorrect FOSS package.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7583
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WireGuard
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T193000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T195500
+UID:7541-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  WireGuard is a robust and capable means to cre
+ ate a virtual private network. It is built-in into the Linux kernel as of 
+ version 5.6 and is now available for most operating systems. WireGuard is 
+ very easy to setup and this talk will focus on two uses cases:a) Those who
+  want to connect securely to the Internet when outside but using their Wir
+ eGuard-enable home routers as the gateway.b) Securing network access of Sm
+ all and Medium Enterprises without hassle and in a it-just-works mode.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7541
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digital sovereignty and platform regulation in Europe
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T200000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T202500
+UID:7537-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The European Union has been leading the way gl
+ obally in the discussion on how to regulate the big global Internet platfo
+ rms. The concept of "digital sovereignty" has quickly become central to Eu
+ rope's strategy\, leading to the quick establishment of new regulatory pro
+ jects\, like the Digital Markets Act\, the Digital Services Act\, the Data
+  Governance Act and the Computer Chips Act\, that will possibly see the li
+ ght in 2022. Open source is also part of the European strategy to digital 
+ sovereignty. What could this mean for Asia and for Asian companies operati
+ ng globally\, and could this set a regulatory example for non-European cou
+ ntries to follow\, as it happened for privacy laws? The talk will summariz
+ e what is happening in Europe and prompt comments by the audience.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7537
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Secure\, Private Document Collaboration
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T203000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T205500
+UID:7646-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Come and see the latest developments in Collab
+ ora Online - and hear how it is used as real alternative for Office Produc
+ tivity around the world - liberating people from proprietary alternatives.
+ See how we can securely contain the power and attack surface of millions o
+ f lines code in the LibreOffice C++ core. Grok how bring that into an ifra
+ me in your web app\, and hear about how we've worked to make the web techn
+ ologies slick and performant here.Understand our approach for bringing thi
+ s to mobile and Chrome-OS\, to allow even more users to avoid data-traps 
+ and to retain their digital sovereignty.Finally checkout how you can get i
+ nvolved with building\, debugging\, and developing the code both around Co
+ llabora Online and LibreOffice. Hear about our growing community\, and all
+  the changeswe've done to make life better for our users\, integrators and
+  contributors in the last year.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7646
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using OpenPGP in Python via Johnnycanencrypt
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T210000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T212500
+UID:7666-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  OpenPGP is the most command way of encryption 
+ &amp\; signing by the FOSS communities and activists around the world.This
+  talk is about doing OpenPGP operations via Johnnycanencrypt module in Pyt
+ hon. This is a new library written in Rust using https://sequoia-pgp.org a
+ nd does not depend on GPG tool. One can all normal user operations (encryp
+ t/decrypt/sign) and also use Yubikeys using the same library. This talk wi
+ ll introduce the library and show examples of the module.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Calendar events in Python - an open-source library
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T213000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T215500
+UID:7507-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Calendars are shared using the ICalendar (ICS)
+  format. This talk gives amotivation &amp\; overview over the ICS formatwh
+ at to be aware of when using ICSshowcase the python-recurring-ical-events 
+ libraryusageTDD aproach with pytestThe idea is to give a fast impression a
+ nd to go over to an interactive discussion.You can find the slides online.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7507
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kotlin Sealed Classes vs. Java Sealed Classes  #Slideless
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T220000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T222500
+UID:7484-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Sealed classes is one of the Java 17 features.
+  Kotlin also supports sealed classes and improved those in Kotlin 1.5. Let
+ ’s compare Java and Kotlin sealed classes and deep dive in source code u
+ se cases in the IDE #slideless.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7484
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AETHER: The First Open Source 5G/LTE Connected Edge Cloud Platform
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T223000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T225500
+UID:7613-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Aether is the first open-source 5G Connected E
+ dge platform for enabling enterprise digital transformation. It provides m
+ obile connectivity and edge cloud services for distributed enterprise netw
+ orks as a cloud-managed offering. This presentation will describe how the 
+ Aether platform is optimized for multi-cloud deployments and simultaneous 
+ support for wireless connectivity over licensed\, unlicensed\, and lightly
+ -licensed (CBRS) spectrum. Then\, it shows the operational and connected A
+ ether Edges at project collaborator locations around the world. The centra
+ lly managed deployment hosts of the Aether core is in the public cloud and
+  is maintained by a CI/CD DevOps pipeline where features and fixes are aut
+ omatically deployed without disruption.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7613
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building scalable WordPress site on AWS
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T230000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T232500
+UID:7523-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Different statistics say that almost 400+ mill
+ ion websites use WordPress. It is still the most popular platform if you w
+ ant to have your corporate website\, blog\, or Internet shop up and runnin
+ g quickly. Out of the box\, WordPress supports only horizontal scalability
+ . And it is OK for any small business website\, but it could be pretty exp
+ ensive once your company grows.I want to share my experience moving WordPr
+ ess to AWS in the following session. We will start with the lift and shift
+  approach and\, in the end\, have a horizontally scalable solution that ma
+ y survive the Black Friday sales. The presentation will cover using CloudF
+ ront\, ALBs\, S3 to host WordPress site\, Nginx vs. Apache decision\, and 
+ the plugins you need to install to get everything working together.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7523
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Source Network Automation in 2022
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220408T233000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220408T235500
+UID:7549-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Network Automation has evolved a lot on the la
+ st years\, adopting a lot of the practices from SDLC (Software Development
+  Life Cycle) but with the intrinsic constraint of networking services. In 
+ this talk you will learn about which are the challenges and common use cas
+ es around network automation\, for instance: configuration management\, us
+ er-driven workflows\, infrastructure as Code (for hybrid and multi clouds)
+  or close-loop automation using Telemetry.You will realise how a lot of op
+ en source projects are coming together to provide solutions to the previou
+ s challenges from different angles and how you could connect them together
+  to start building a network automation strategy that could transform your
+  network with lower OPEX\, improved reliability and security\, and increas
+ ed innovation.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7549
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Good Morning FOSSASIA - Day 3
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T092000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T092500
+UID:7723-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Good morning FOSSASIA - Day 3. We are glad to 
+ welcome you to day 3. Learn about the highlights of today and welcome spea
+ kers and friends at the summit.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7723
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Why we need more Open Source Hardware and Software for Health Appl
+ ications
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T093000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T102500
+UID:7658-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Often proprietary health application\, hardwar
+ e and software\, don't meet the needs of the patients. There are data leak
+ s\, unsufficient individualization\, unattractive aesthetic design\, unsa
+ tisfactory usability and a lack of self-determination in context with tech
+ nical solutions for health. We want to speak about these issues\, give you
+  some examples and figure out what open source can make better.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7658
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jamming with Guitars and Synths using Bespoke
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T102500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T105000
+UID:7570-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Bespoke is an open source modular DAW (Digital
+  Audio Workstation) software for Mac\, Windows\, and Linux.During the pand
+ emic and quarantine period\, quite a number of people developed new hobbie
+ s that help keep them mentally healthy. I'm one of them. Music production 
+ gave me an avenue for expression and creativity. It simulates the fun of m
+ usic jamming without having a physical band.In this session\, I'll be shar
+ ing an overview of Bespoke and how I use it for:Creating my virtual guitar
+  effects chain (pedalboard) for tonal explorationsSetting up a jamming rig
+  with virtual music instruments\, loopers\, and backing tracksAutomating p
+ erformance setupsas well as the awesome discord community that's ever help
+ ful when learning this software.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7570
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TinyML for AI Robotics Applications in Education
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T105000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T111500
+UID:7520-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  With the rapid evolution of technology and the
+  requirements of SDG #4 (Quality Education)\, STEAM educators must equip t
+ hemselves with modern skills and tools sets. Tools such as Seeed Studio's 
+ Codecraft graphical block-based programming platform powered by Edge Impul
+ se enabled educators to easily create TinyML projects on Wio Terminal hard
+ ware. Teachers can then share their acquired knowledge with their students
+  in making TinyML related projects to solve real-life problems.Beyond grap
+ hical block-based programming\, educators could also leverage the model ge
+ nerated and use it in a text-based coding environment. This allows the sca
+ lability of the TinyML projects in various scenarios.For this talk\, Vince
+ nt will also share his Hackster.io’s featured TinyML robotics project (
+ “Voice Activated Robot Car on Microcontroller with TinyML”) as an exam
+ ple of how STEAM educators can quickly prototype TinyML projects.   
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7520
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Simulating Underwater Robots - Challenges and Perspectives
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T111500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T115500
+UID:7640-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Maritime robotics is a domain that is often ov
+ erlooked by us land-lubbers. However\, the use of robots to perform tasks 
+ such as for surveying and cable laying is quite common in the industry. Te
+ sting software that runs on such robots in real life is expensive and hard
+ . In this talk we go through different aspects and challenges of maritime 
+ simulation and walk through a real life example using ignition-gazebo and 
+ the MBARI Tethys. We will be covering hydrostatics\, hydrodynamics\, acous
+ tic communications and testing. Finally we will discuss future development
+ s with regards to maritime sensors and how you can get involved.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7640
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Open Source Multi Fleet Task Allocation System
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T120000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T122500
+UID:7638-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The session will cover the development and inn
+ er workings of the task allocation system used in the Robotics Middleware 
+ Framework (Open-RMF). This is another take on the challenging problem- whi
+ ch robot from which fleet in a given facility should perform a given task 
+ in order for it to be completed in an optimal manner.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7638
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Open Vision Computer 5
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T122500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T125000
+UID:7677-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The Open Vision Computer (OVC) was designed to
+  support high speed\, visionguided autonomous drone flight. In particular 
+ our aim was to develop a system that would be suitable for relatively smal
+ l-scale flying platforms where size\,weight\, power consumption and comput
+ ational performance were all important considerations. However OVC has gon
+ e through many iterations changing shape and purpose\, come figure out wha
+ t are we up to on our 5th version of the Open Hardware Open Vision Compute
+ r\, our most flexible open source vision system yet!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7677
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Future of Robotic Manipulation With Open Source
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T125000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T131500
+UID:7639-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Due to its business-friendly licensing\, activ
+ e community\, and impressive feature set\, Robot Operating System (ROS) ha
+ s become a de-facto standard for robotics systems development for research
+  groups\, startups\, and large companies around the world. One of the most
+  popular components within ROS is MoveIt\, a widely used software platform
+  for advanced robotics manipulation platform\, including mobile manipulati
+ on.  In this session\, Dave Coleman\, CEO of PickNik Robotics\, will dis
+ cuss the history of robotic arms and explore why we don't see more arms in
+  our everyday lives. He will identify the innovation-hindering environment
+  we are in and suggest how open source can be a major player in solving th
+ ese problems.  
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7639
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Foxglove Studio: The next generation of robotics visualization
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T131500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T134000
+UID:7641-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  High-quality data visualization is critical to
+  robotics development and operations. Engineering teams need the ability t
+ o easily visualize everything from raw sensor data\, to perception and tra
+ cking data\, and planning and controls outputs. Product and Operations tea
+ ms need the ability to fetch raw\, high-resolution data for anomalies in t
+ he field\, and inspect these for triage and remediation.The most effective
+  and mature robotics organizations today standardize this tooling across t
+ heir company\, so that everyone from Technical Operations to Product and E
+ ngineering have access to the same high quality data. However\, the curren
+ t tooling landscape is fragmented – applications don’t prioritize cros
+ s-platform deployment\, team collaboration\, or integration with centraliz
+ ed data storage systems.In this session\, Adrian Macneil\, CEO at Foxglove
+ \, will share his learnings from developing an open source visualization s
+ tack\, and how this next generation of tooling is giving robotics companie
+ s a competitive edge in their development and deployment.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7641
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:It Takes a Village
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T134500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T141000
+UID:7608-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  IEEE is a NonProfit with over 420K members in 
+ 180 Countries.  We wanted to create a platform that would be in existence 
+ not for the next 3-5 years but instead for the next couple of decades to s
+ upport our standards making process.  We have a very diverse community.  O
+ ne of the first things we decided to focus on is Role Diversity. In this p
+ resentation\, we will talk about what we have accomplished in the last two
+  years. And how next we will be automating those processes the community h
+ as created.  In true IEEE fashion\, these processes have been created by o
+ ur volunteers in a very open transparent fashion and continue to evolve. 
+  Being 100% Open Source is a key philosophy that drives this community for
+ ward.  I will review our entire community architecture. And why different 
+ types of diversity are so important. We will illustrate how we are support
+ ing everyone: nonprofit users\, designers\,  social media mavens\, product
+  managers\, and more.  Complete with checklist\, templates\, and process d
+ iagrams and our continued path forward.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7608
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Communities in a (Post?) Pandemic World
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T141500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T145500
+UID:7661-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Communities make the Cloud Native and OSS worl
+ d go round. Without the support of our contributors and end users\, the pr
+ ojects we’ve helped grow would not be possible. When COVID-19’s effect
+ s were finally felt globally\, it caused a lot of community members to pau
+ se and contemplate how to keep the momentum and camaraderie while avoiding
+  burnout. Join Jeff as he goes over two stories: One of the Kubernetes Com
+ munity\, the other of a smaller local Cloud Native meetup. Many parallels 
+ will emerge showing that big or small\, building communities and engaging 
+ with people is done best with open arms and a laugh.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7661
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Ethics
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T150000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T155500
+UID:7505-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Transformative technology offers tremendous op
+ portunities but raises ethical concerns and the potential for harm. Techno
+ logies such as AI have been found to be potentially harming fairness\, acc
+ ountability\, transparency\, ethics\, and safety. Robotics introduces ethi
+ cal challenges to the very basic definition of being human. Moreover\, the
+  organizations around developing such technologies need to build up their 
+ own ethics. Commercial entities have to take their social responsibility t
+ o develop tech4good. Government agencies have to make policies and regulat
+ ions that confine the harm. Users have to reach the consensus about ethica
+ l usage of technology. The FOSS community has a unique position in this gl
+ obal debate over tech ethics. Issues to be discussed include but not limit
+ ed to:1.  AI ethics\, AI transparency\, AI fairness 2.  Data ethics\, data
+  justice3.  Robotics ethics\, human-robot relationship4.  Industry’s soc
+ ial responsibility\, tech4good\, 5.  Ethical policies and regulations 6.  
+ Ethics education and deliberation
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7505
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introduction to PCBWay
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T155500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T160000
+UID:7692-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Introduction to PCBWay
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7692
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning Talks
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T155500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T170000
+UID:7674-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Please join us for a round of lightning talks!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7674
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building an Image Neural Search with Jina in Python
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T160000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T160500
+UID:7659-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  In the workshop we teach how to use Jina for v
+ isual search cases by using custom data in a variety of visual domains lik
+ e medical image search\, image nfts\, re-id\, x-ray\, photo apps etc.The a
+ ttendees learn how to use DocumentArray to preprocess their data. Furtherm
+ ore\, they use our one-line visual search solution for finetuning and host
+ ing on Kubernetes.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7659
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Women Who Code Seoul
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T160500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T161000
+UID:7687-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Introduction to Women Who Code Seoul
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7687
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ubuntu Korea 
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T161000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T161500
+UID:7690-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Introduction to Ubuntu Korea
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7690
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introduction to UKylin and UKUI theme framework
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T161500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T162000
+UID:7691-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  UKUI theme framework
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7691
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The rising open source movement in China
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T162000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T162500
+UID:7668-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Open Source movement covered all over the worl
+ d. For most\, the current few years glow in Asia and Africa area. GitHub u
+ ser increases 44% in 2018-2019\, with the most people coming from a non-US
+  country\, most of from China.Kaiyuanshe(開源社) is the most active ope
+ n-source community in China. They organised China Open Source Conference\,
+  also published the China Open Source whitepaper each year.This session is
+  introducing [China Open Source White Paper 2020] highlight.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7668
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A dev’s guide to user research and user testing for open source 
+ software
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T162500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T163000
+UID:7555-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The team at Simply Secure has partnered with O
+ kthanks and Internews to develop a series of resources that help Open Sour
+ ce tool teams understand how design processes and practices can benefit OS
+ S and where to begin in small\, simple ways within OSS contributor communi
+ ties. Understanding what user testing can offer OSS and why it differs fro
+ m the typical ‘developer contributor feedback’ to ‘PR submission imp
+ rovements’ can help you to centre people that you might not even know ar
+ e using your OSS tool. User testing helps you broaden the usefulness of yo
+ ur OSS for the users you already know well\, and also gets you to consider
+  users you might not know well.  In this participatory workshop you’ll l
+ earn about what user testing can be\, how it can be done within a small OS
+ S tool team\, and start to practice the skills and processes for user test
+ ing so you can take these back to your OSS communities as well as synthesi
+ s of user research data as an OSS team to inform priorities in your OSS ba
+ cklog.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7555
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introduction to Open Stack Korea 
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T163000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T163500
+UID:7693-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Introduction to Open Stack Korea
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7693
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Source Best Practices in diversifying the community
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T163500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T164000
+UID:7591-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Open source projects have large community but 
+ without open source best practices\, it can't stand together. Here I will 
+ focus main following points as below:How to become a contributing member o
+ f this communityHow to collaborate with others in Open Science projectsHow
+  to exchange skills with others and build your profiles How to highlight 
+ and promote your resourcesHow to gain insights from other maintainers/expe
+ rts in the fieldHow to work on short-term projects and publish onlineHow t
+ o get recognition and acknowledgment for your workHow to co-develop this p
+ rogram by sharing feedback
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7591
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UpStage
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T164000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T164500
+UID:7547-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  An overview of the UpStage rebuild (launched O
+ ctober 2021) by the artists and a 'behind the scenes' introduction by one 
+ or more of the development team  - Nguyen Hong Phat will joinUpStage tea
+ m entered and were winners in the Unesco TechCul and due to this success w
+ ere invited to present at FOSSAsia 2021 - we would like to showcase the pr
+ ogress and introduce members of the teamThis will be in English and in Vie
+ tnamese (if appropriate times are granted )
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7547
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open-source and low code/no code (LC/NC)
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T164500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T165000
+UID:7500-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  This talk will explain the hidden required res
+ ources for low code/no code (LC/NC) and its impact on and relation with o
+ pen-source philosophy. The low code/no code (LC/NC) requires the same logi
+ cal\, critical thinking\, problem-solving skills as coding. These cognitiv
+ e skills are the main and hard part of any solution. Coding becomes trivia
+ l in terms of required time and effort as a comparison. How low code/no c
+ ode (LC/NC) ensures open-source benefits like:Freedom and flexibilityHigh 
+ quality and efficiencyInnovation via communitiesSecurity and privacyLow co
+ sts
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7500
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Best Idea to deliver OSS in business in Open Source Way
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T165000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T165500
+UID:7525-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  We have been doing supporting Open Source Soft
+ ware (PostgreSQL) in Enterprises (middle up companies) for more than a dec
+ ades\, we are indeed facing many challenges\, turbolence\, and finally we 
+ settle some standard\, our business model\, a great approach for deliverin
+ g the best of Open Source in the best place\, business side. Open Source 
+ has a very unique nature\, which actually has very adjacent value with bus
+ iness value\, but there nothing is impossible. We are there for sure!We ca
+ n deliver Open Source in business in so many ways\, converting the uncomme
+ rcial License into Commercial one is the easiest and popular one\, but thi
+ s is not without any risk. Or\, we can deliver the expertise on demand\, 
+ pay as you go\, pay as you need\, this is not what business need actually.
+ So what is the best scenario to acquisite the benefit of Open Source witho
+ ut jeopardize the spirit of Open Source itself? Let's have a talk!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7525
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chatmosphere
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T165500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T170000
+UID:7724-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Chatmosphere is a fun and intuitive open sourc
+ e video chat. Mingle in virtual spaces.Chatmosphere is all about self-orga
+ nisation and group dynamic. Move through space and get closer to people to
+  hear them louder. Connect with others more naturally and talk simultaneou
+ sly in large groups. Making video calls intuitive.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7724
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beyond Code\; Recognizing All Contributions 
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T170000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T175500
+UID:7601-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Often the most measured and recognized contrib
+ utions are code.  While code is important to making FOSS work\, FOSS woul
+ d not succeed without many other contributions.  Whether it is legal work
+ \, community management\, marketing\, events\, documentation and governanc
+ e\, 1000s of volunteers and paid FOSS contributors make FOSS successful. 
+  Often\, we do not recognize them as key builders and contributors.  Thes
+ e contributors are also often women or people from under-represented backg
+ rounds and these types of contributions get them started in FOSS.  If we 
+ want to grow the FOSS community\, we need to talk about these other areas 
+ of FOSS\, invite and welcome these new contributors.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7601
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Skills Challenge Prizes
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T175500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T180000
+UID:7686-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Please join us!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7686
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OpenTAP Transformation from Inner Source to Open Source: The Value
+  of a Community
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T180000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T182500
+UID:7632-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  In this session\, we will discuss the transfor
+ mation of OpenTAP from Inner Source to Open Source. Through the journey we
+  learned about the value of a community and ecosystem building. We will ta
+ lk about some of the challenges and successes and a call to action for new
+  partners. --------------------------------------------------------------
+ --------------------------------------------------------------------------
+ ------------------------OpenTAP is an open source project for fast and eas
+ y development\, deployment and execution of automated tests.The goal of Op
+ enTAP is to transform test automation from a largely homegrown\, isolated 
+ endeavor into a standardized activity that speeds test development and add
+ s innovative capabilities. OpenTAP leverages open source collaboration as 
+ a proven strategy to create broadly interoperable and reusable technology.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7632
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Open Source Plugins for Enterprise Scale Device Testing w
+ ith OpenTAP
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T183000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T191000
+UID:7683-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Technical\, fast faster “workshop”
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7683
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Renode: Easy CI for your Weird Hardware
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T191500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T195500
+UID:7653-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Hardware is hard\, and doing Contiuous Integra
+ tion on hardware is even harder. In the software world\, modern languages 
+ provide tooling to write tests. But how do you test hardware? You can run 
+ it in qemu\, but what if your hardware is slightly different\, or has some
+  fancy new sensor attached?Renode is an open software package from Antmicr
+ o. It makes emulating strange hardware configurations incredibly simple. T
+ his talk will introduce Renode\, cover its finer points\, and explain how 
+ to integrate it into a CI infrastructure.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7653
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:OPEN!NEXT: Establishing company community collaboration for open h
+ ardware
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T200000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T201500
+UID:7689-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Mehera will share the OPENNEXT project vision 
+ of how a strategic collaboration between companies and open hardware commu
+ nities could radically transform the way products and services are designe
+ d and produced in the future. 
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7689
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pocket Science Lab
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T202000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T205500
+UID:7609-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  In the Pocket Science Lab Project we create ph
+ one and desktop applications to collect measurements and data to solve glo
+ bal problems with science and build a sustainable world. With the PSLab mo
+ bile and desktop apps it is possible to use sensors of a phone or desktop 
+ PC to collect measurements and data. The app comes with a built-in Oscillo
+ scope\, Multimeter\, Wave Generator\, Logic Analyzer\, Power Source\, and 
+ we are constantly adding more digital instruments or even robotic controls
+ . With PSLab applications your phone or PC becomes like many devices in on
+ e. Adding widely available Open Standards sensors and the PSLab board you 
+ are able extend your device to be a complete lab in the pocket. You can co
+ llect air data\, temperature\, water quality\, the level of radioactivity 
+ and anything you could imagine. Once you are ready you can share the data\
+ , draw scientific conclusions\, and start to take action to change the wor
+ ld around you to be more sustainable. And as a developer you are able to c
+ reate your own plugins and front-ends to integrate the PSLab science libra
+ ries into other solutions.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7609
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PSLab sensor driver using Python
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T210000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T212500
+UID:7612-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  The PSLab has several built-in instruments whi
+ ch are useful in their own right. However\, the power of the device can be
+  taken to the next level by combining the built-in instruments to interfac
+ e with external sensor hardware.This session will cover how this can be ac
+ hieved in practice by demonstrating how to write a driver for the TCD1304 
+ Linear CCD in less than 50 lines of code.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7612
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PSLab Desktop Goes Native Goes Web
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T213000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T215500
+UID:7633-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Since the beginning of the PSLab project\, we 
+ have been rethinking its stack\, architecture and components multiple time
+ s. The desktop app has shifted from Python and Qt to Electron\, the Python
+  library has been rewritten\, and the firmware is being reworked these day
+ s. During this process\, complexity has grown and shrunk: While the Python
+  library is now easier to use and work on\, the desktop applications needs
+  a bridge to talk to it\, going through various channels and requiring a l
+ ot of knowledge to set up. At the same time\, new opportunities and techno
+ logies are developing\, of which this talk discusses two possible integrat
+ ions we are planning to make the PSLab desktop app more portable and easie
+ r to use again: Based on previous work of an initial driver for PSLab in t
+ he Sigrok project\, we can simplify the strong coupling with the Python li
+ brary and use a native\, direct interface instead\, and thanks to WebAssem
+ bly\, we can even put the existing user interface as it is on the web\, so
+  that it works without explicit installation.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7633
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Raspberry Pi is 10 years old! and we will play more with it - what
+  we to with it and how to share our projects to contribute the community
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T220000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T222500
+UID:7592-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Raspberry Pi is now 10 years old! now it is so
+ ld over 50 milion and used everywhere - not only education use but also En
+ terprise business use. Masafumi will talk to get back the Raspberry Pi his
+ tory through the use cases - Hobby/Electric DIY/programings/IoT/Embedded s
+ ystem at Enterprise use (included show some demos) to find useful cases fo
+ r your Raspberry Pi and discuss how to share your projects to contribute R
+ aspberry Pi community with some use cases.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7592
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Empower Embedded Computing with VexRiscv and FreeRTOS
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T223000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T225500
+UID:7569-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  RISC-V is an open-source standard instruction 
+ set architecture (ISA) that is managed by the non-profit RISC-V Foundation
+ \, and VexRiscv implements a configurable RISC-V core along with memory\, 
+ a range of I/O\, and interfaces for embedding user functions. In this talk
+ \, running FreeRTOS on VexRiscv empowers the creation of entire systems wi
+ th full customizations. The internals of FreeRTOS kernel will be discussed
+  including architecture-specific porting\, interrupt handling\, etc.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7569
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning Talks
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T225500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T234500
+UID:7705-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Please join us for lightning talks!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7705
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TinyML using ScaleDown
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T225500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T230000
+UID:7600-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  ScaleDown is an open-source framework and comm
+ unity that provides free training and mentorship as well as fosters collab
+ oration and innovation in TinyML.What is TinyML?TinyML devices like Arduin
+ os are resource-constrained. This means that they are usually small\, batt
+ ery-powered\, and have low computation power and memory. Deploying neural 
+ networks on such devices is difficult due to how large they are in terms o
+ f their memory footprint and the number of operations needed to execute th
+ em. So we need to optimize and scale down neural networks to deploy them. 
+ This machine learning paradigm is known as TinyML. It is estimated that th
+ ere will be more than 60 billion IoT devices worldwide by 2035. Many of th
+ em will be equipped with TinyML capabilities.Why is Learning TinyML Hard?H
+ owever\, there is a wide gap in the community for learning resources and t
+ ools to help beginners and early career professionals learn about TinyML\,
+  experiment\, and make products to build a portfolio to get jobs. To help 
+ people better understand this field\, we do community work like hosting wo
+ rkshops\, study groups\, and talks. We also create free learning resources
+  like books and courses.There are many TinyML optimization algorithms\, bu
+ t the tools landscape is fragmented with each framework supporting differe
+ nt algorithms and only on specific model types. Moreover\, they only suppo
+ rt a few algorithms and not the latest\, better-performing algorithms. Thi
+ s makes these tools less accessible to disadvantaged groups who may not ha
+ ve access to those software or hardware. Moreover\, they are not easy for 
+ beginners to learn. Scaledown is bridging that gap by building a framework
+  that can take models trained in any framework\, optimize them using the l
+ atest algorithms\, and then deploy them to TinyML devices. Finally\, we he
+ lp grow the field by doing research and giving opportunities for collabora
+ tion within the community. Link: https://scaledown-team.github.io/What wil
+ l the workshop cover?In this talk\, we will cover the two pillars of educa
+ tion and the framework at ScaleDown. Along with these pillars\, we have al
+ so started a “Hardware Library” in Singapore\, from where people can b
+ orrow hardware that they want to work with and then return them for differ
+ ent hardware when they are done. This will help people build a portfolio o
+ f projects with multiple hardware and tools that they can then leverage to
+  get career or internship opportunities. Our blogs\, books\, and study gro
+ ups will help you learn TinyML. The hardware library will help you build y
+ our first project using the framework. After implementing your projects\, 
+ you can write about your experience and help grow the community by teachin
+ g others. In this way\, Education will feed into the Framework.The audienc
+ e will learn how to implement the ScaleDown framework in a few lines of co
+ de and also check out our easy-to-do projects! Join us through this worksh
+ op to see ScaleDown in action and learn how you can be a part of our open-
+ source initiative
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Uno Platform: Your Apps Everywhere
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T230000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T230500
+UID:7530-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Developing cross-platform applications is comp
+ lex. Some frameworks allow us to share the business logic\, some go furthe
+ r and allow us to share the UI layer\, often limited to the lowest common 
+ denominator among target platforms. But even then – working with device 
+ hardware still requires not only error-prone platform-specific code but al
+ so developers familiar with each of the target platforms to maintain it. W
+ hat if there was a framework\, which would allow you write all your code i
+ n C# and XAML\, with unlimited styling and templating capabilities\, and a
+  single API to access device hardware and APIs? And what if you could use 
+ this framework to target all mobile and desktop devices and even the web? 
+ Meet the Uno Platform - your C#/XAML apps on Windows\, Android\, iOS\, mac
+ OS\, Linux\, and WebAssembly!
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7530
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alternator: open-source DynamoDB-compatible API
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T230500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T231000
+UID:7556-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Project Alternator is the code name for Dynamo
+ DB-compatible API shipped with Scylla - an open-source\, high performance 
+ NoSQL database\, which is also compatible with Apache Cassandra™. Altern
+ ator allows you to spawn a DynamoDB-compatible API on other cloud provider
+ s\, or even locally - in your datacenter\, or on your own laptop. Interest
+ ingly\, Alternator recently got officially certified as AWS Outposts Ready
+ . The presentation will cover the infrastructure behind Alternator\, its s
+ ubtle differences compared to real DynamoDB and a short introduction on ho
+ w to run it yourself.https://www.scylladb.com/alternator/
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7556
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crew Resource Management for Database Teams
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T231000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T231500
+UID:7496-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  While IT environments have made great strides 
+ in moving towards collective responsibility for incident prevention with t
+ he rise of no-blame post mortems\, we often lag behind many industries in 
+ understanding human error and what we can optimize for in order to maximiz
+ e the human contribution to incident prevention and recovery.  Crew Resou
+ rce Management comes out of aviation and refers to the use of all availabl
+ e resources in order to ensure safe and efficient operations\, and focuses
+  very heavily on this topic.At both Adjust GmbH and DeliveryHero we have h
+ eaded down the journey of implementing Crew Resource Management in our IT 
+ teams\, whether operations teams or DevOps approaches.  Come and learn wh
+ at this field has to offer and what benefits Crew Resource Management can 
+ provide to your organization.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7496
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enarx: The Platform Abstraction for Trusted Execution Environments
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T231500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T232000
+UID:7565-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  For deploying any application/workload remotel
+ y\, you’re entrusting someone else to take the workload’s component el
+ ements : code and data and run them on their computer. The problem is that
+  the firm or individuals who execute your task on their computer have the 
+ ability to peek into it\, change it\, and even stop it from running if the
+ y so desire.The purpose of TEEs (Trusted Execution Environments) is to use
+  technology to solve this issue. It is a secure area within the host where
+  sensitive workloads can be run. TEE can be defined as a hardware-based me
+ chanism for securing critical data and algorithms in such a way that not e
+ ven the kernel\, root user\, or hypervisor can see what’s going on. TEEs
+  are great because you can start running your workloads in such a way that
+  they are protected.TEEs are awesome but they have a few limitations. This
+  is where Enarx comes into picture. Enarx works on a few core principles t
+ o get rid of the limitations posed by the TEEs and make the system even mo
+ re secure and readily compatible.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7565
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Standard for Public Code
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T232000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T232500
+UID:7645-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  This talk shows how the Standard for Public Co
+ de can help you set up your codebase for collaboration.Our goal is to help
+  people developing public-purpose software understand how the Standard for
+  Public Code can help them collaborate. The Standard is of course applicab
+ le to everyone developing open source software\, and is especially useful 
+ if you want other organizations to be able to contribute to your code.We h
+ ope to inspire collaboration across public organizations and show that it 
+ is not that hard to create genuinely reusable code.By applying the Standar
+ d\, code will not only be reusable and open source on paper\, but also in 
+ practice. The talk will also answer the following questions:* What is publ
+ ic code?* Why the need for a Standard for Public Code?* How can I prepare 
+ to ensure there are no blockers for collaboration.erivćThe talk will show
+  how the Foundation for Public Code is already applying the Standard to so
+ me codebases\, and how this has helped those communities.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7645
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Build Invincible Applications
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T232500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T233000
+UID:7550-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  For the past 45 years\, the database community
+  has enjoyed an unparalleled developer experience: transactions mitigate f
+ ailure on a platform level\, guaranteeing correctness on an application le
+ vel. As a developer\, we don't have to think about itHowever\, despite man
+ y advancements in the past 20 years\, the distributed systems community ha
+ s not enjoyed an equivalent developer experience: There is no abstraction 
+ that mitigates failure on a platform level\, guaranteeing correctness on a
+ n application level. As a developer\, we have to think about it a lot. Te
+ mporal is an open source platform that mitigates failure on a platform le
+ vel: Temporal core abstraction\, its unit of execution\, reliability\, an
+ d scalability\, is the Temporal Workflow. You may think of a Temporal Wor
+ kflow Definition as a regular Function Definition—in fact\, that is the 
+ developer experience that Temporal provides to its users—but a Workflow 
+ Execution provides stunning improvements over a regular Function Execution
+ . In particular\, a Temporal Workflow Execution provides effectively once 
+ execution guarantees and cannot fail!Using a systems modeling approach\, t
+ his presentation explores how Temporal mitigates failure on a platform le
+ vel and dives deep into the mechanics of a platform that provides a develo
+ per experience of distributed systems that rivals the developer experience
+  of databases.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7550
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Center Infrastructure Management tool as a single source of t
+ ruth for telco operations
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T233000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T233500
+UID:7533-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Data Center Infrastructure Management (DCIM) t
+ ool is a required tool for every ISP/Telco. DCIM is the source of truth fo
+ r network operations such as network automation\, infrastructure monitorin
+ g\, alerting…In Viettel (largest telco in Vietnam)\, we use and customiz
+ e NetBox (*) to suit those needs. In this session\, we will present:How we
+  deploy NetBox to manage thousands of devices\, virtual machinesHow we bui
+ ld a CI/CD pipeline for developing\, automated testing\, delivery\, and de
+ ployment for NetBoxHow we deploy NetBox on private cloud (based-on OpenSta
+ ck)How we use NetBox as a single source of truth to provide information fo
+ r other systems (automation\, monitoring\, alert\, alarm…)Some of the cu
+ stomized functionalities that we built* NetBox is an infrastructure resou
+ rce modeling (IRM) tool designed to empower network automation\, used by t
+ housands of organizations around the world. Some of the best functionaliti
+ es of NetBox is: IP address management (IPAM)\, Equipment racks\, Devices\
+ , Virtualization…
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7533
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building and Scaling Robust Zero-code IoT Streaming Data Pipelines
+  with Open Source Technologies: Comparing two approaches
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T233500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T234000
+UID:7540-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  With the rapid onset of the global Covid-19 Pa
+ ndemic in 2020 the USA Centers for Disease Control and Prevention (CDC) qu
+ ickly implemented a new Covid-19 pipeline to collect testing data from all
+  of the USA’s states and territories\, and produce multiple consumable r
+ esults for federal and public agencies. They did this in under 30 days\, u
+ sing Apache Kafka.Inspired by this story\, we built two demonstration stre
+ aming pipelines for ingesting\, storing\, and visualizing public IoT data 
+ (Tidal data from NOAA\, the National Oceanic and Atmospheric Administratio
+ n) using multiple open source technologies. The common ingestion technolog
+ ies were Apache Kafka\, Apache Kafka Connect\, and Apache Camel Kafka Conn
+ ector\, supplemented with Prometheus and Grafana for monitoring. The initi
+ al experiment used Open Distro for Elasticsearch and Kibana as the target 
+ storage and visualisation technologies\, while the second experiment used 
+ PostgreSQL and Apache Superset.In this talk we introduce each technology a
+ nd the pipeline architecture\, and walk through the steps followed\, chall
+ enges encountered\, and solutions used to build reliable and scalable pipe
+ lines\, and visualize the results. We compare and contrast the two approac
+ hes\, focussing on exception handling\, scalability\, performance and moni
+ toring\, and visualisation.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7540
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pipy - Programmable network proxy for the cloud\, edge\, and IoT
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T234000
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T234500
+UID:7634-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  This session will introduce Pipy\, an open-sou
+ rce cloud-native network stream processor\, explain its modular design\, a
+ rchitecture and demonstrate a quick example of how to create and run a hig
+ h-performance network proxy up and running quickly. Pipy is an open-source
+ \, lightweight\, high-performance\, modular\, programmable\, cloud-native 
+ network stream processor that is ideal for a variety of use-cases ranging 
+ from (but not limited to) edge routers\, load balancers &amp\; proxy solut
+ ions\, API gateways\, static HTTP servers\, service mesh sidecars\, admiss
+ ion controller\, policy engine and other applications.
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7634
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Closing Session
+DTSTART;TZID=Singapore;VALUE=DATE-TIME:20220409T234500
+DTEND;TZID=Singapore;VALUE=DATE-TIME:20220409T235500
+UID:7679-6b901f56
+DESCRIPTION: Room: Main Hall Join using link:  https://eventyay.com/e/6b90
+ 1f56/video/Main%20Hall/630  Closing Session
+GEO:0.0;0.0
+LOCATION: https://eventyay.com/e/6b901f56/video/Main%20Hall/630
+URL:https://eventyay.com/e/6b901f56/session/7679
+END:VEVENT
+END:VCALENDAR
