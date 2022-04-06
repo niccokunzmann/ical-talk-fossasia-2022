@@ -54,7 +54,7 @@
 
     <section class="slide">
         <h2>Structure</h2>
-        <p class="note">Are you curious about something? Ask questions instantly so I can fit them in.</p>
+        <p class="note">Are you curious about something? Ask instantly so I can fit answers in!</p>
         <ol>
             <li>ICalendar</li>
             <li>The recurring_ical_events library</li>
@@ -63,7 +63,7 @@
             <li>End: Chat and Hands-On Session</li>
         </ol>
         <p>
-            Slides: <a href="https://niccokunzmann.github.io/ical-slides-fossasia-2022">niccokunzmann.github.io/ical-slides-fossasia-2022</a>
+            Slides: <a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022">niccokunzmann.github.io/ical-talk-fossasia-2022</a>
         </p>
     </section>
     <section class="slide">
@@ -252,7 +252,7 @@
           <code>from urllib.request import urlopen</code>
           <code>ical_string = urlopen(<mark>"http://tinyurl.com/y24m3r8f"</mark>).read()</code>
           <code>calendar = icalendar.Calendar.from_ical(ical_string)</code>
-          <code>events = recurring_ical_events.of(calendar).at(<mark>(2022, 3)</mark>)</code>
+          <code>events = recurring_ical_events.of(calendar).at(<mark>(2019, 3)</mark>)</code>
           <code>for event in events:</code>
           <code>    print("start {} summary {}".format(event["DTSTART"].dt,</code>
           <code>                                       event.get("SUMMARY")))</code>
