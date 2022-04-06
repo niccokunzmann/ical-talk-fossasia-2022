@@ -1,6 +1,11 @@
-# Shower Presentation Template
+This is the talk at the fossasia summit 2022 about the recurring ical events library.
+See it online: https://niccokunzmann.github.io/ical-talk-fossasia-2022/
 
-https://niccokunzmann.github.io/ical-talk-fossasia-2022/
+
+
+
+<!--
+# Shower Presentation Template
 
 [![Test status](https://github.com/shower/shower/workflows/Test/badge.svg)](https://github.com/shower/shower/actions/workflows/test.yml)
 
@@ -76,3 +81,4 @@ Main contributors in historical order: [pepelsbey](https://github.com/pepelsbey)
 
 ---
 Licensed under [MIT License](LICENSE.md).
+-->
