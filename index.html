@@ -16,11 +16,12 @@
 
     <header class="caption">
         <h1>ICalendar Events with Python</h1>
-        <p>How to use your own web calendar events in Python.</p>
+        <p>My way to a useful open-source library</p>
     </header>
 
     <section class="slide" id="cover">
         <h2>ICalendar Events with Python</h2>
+        <p>My way to a useful open-source library</p>
         <p>by <a href="https://niccokunzmann.github.io">Nicco Kunzmann</a></p>
         <figure>
             <img class="cover" src="pictures/cat.jpg" alt="Cat next to my phone">
@@ -40,14 +41,15 @@
             #cover p {
                 margin: 10px 0 0;
                 text-align: center;
-                color: black;
+                color: white;
                 font-style: italic;
-                font-size: 20px;
+                font-size: 30px;
+                background-color: rgba(0.5, 0.5, 0.5, 0.5)
             }
 
             #cover p a {
-                color: black;
                 text-decoration: none;
+                color: white;
             }
         </style>
     </section>
@@ -56,11 +58,11 @@
         <h2>Structure</h2>
         <p class="note">Are you curious about something? Ask instantly so I can fit answers in!</p>
         <ol>
-            <li>ICalendar</li>
-            <li>The recurring_ical_events library</li>
-            <li>Related Work</li>
+            <li>About Me</li>
+            <li>Learnings from the recurring_ical_events library</li>
+            <li>Factors for open-source library success</li>
             <li>Questions and Answers</li>
-            <li>End: Chat and Hands-On Session</li>
+            <!-- <li>End: Chat and Hands-On Session</li> -->
         </ol>
         <p>
             Slides: <a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022">niccokunzmann.github.io/ical-talk-fossasia-2022</a>
@@ -84,12 +86,225 @@
     </section>
 
     <section class="slide">
+        <h2>recurring_ical_events - History</h2>
+        <ol>
+          <li>Federated calendar system: Open-Web-Calendar</li>
+          <li>user-controlled multi-source calendar, no self-hosting required</li>
+          <li><a href="https://openwebcalendar.herokuapp.com">openwebcalendar.herokuapp.com</a></li>
+          <li>Issue: How to display events from ICS files?</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>recurring_ical_events - History</h2>
+        <ol>
+          <li>Decision: <a href="https://pypi.org/project/recurring-ical-events/">new library <code>python-recurring-ical-events</code></a></li>
+          <li>
+              <img src="pictures/build.svg" height="40em"/>
+              <img src="pictures/pypi.svg" height="40em" />
+              <img src="pictures/downloads.svg" height="40em" />
+          </li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Factor: Your Use Case</h2>
+        <ol>
+          <li>Solves your problem.</li>
+          <li>As small as possible</li>
+          <li>Easy interface: <code>between(start, end)</code></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Factor: License</h2>
+        <ol>
+          <li>open-source</li>
+          <li>License: LGPL</li>
+          <li>Not: MIT/Apache</li>
+          <li>Not: GPL</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Factor: Common Use Case</h2>
+        <ol>
+          <li>Easy interface: <code>at(a_date)</code> and <code>between(start, end)</code></li>
+          <li>Interoperable Base: <code>icalendar</code></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Factor: Documentation First</h2>
+        <ol>
+          <li>README first!</li>
+          <li>How do you want to use it?</li>
+          <li>Answer a few Stack Overflow questions.</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Factor: Feedback</h2>
+        <ol>
+          <li>Usage in unknown places</li>
+          <li>Other users ➡ feedback</li>
+          <li>Higher quality!</li>
+        </ol>
+    </section>
+
+
+    <section class="slide">
+        <h2>Factor: Test Second</h2>
+        <ol>
+          <li>Test-Driven-Development (TDD)</li>
+          <li>Knowledge not lost but increasing over time</li>
+          <li>Changes not destructive</li>
+          <li>long-term maintainability</li>
+          <li>increasing quality with feedback</li>
+          <li>Using pytest, more than 600 tests</li>
+        </ol>
+    </section>
+
+
+    <section class="slide">
+        <h2>Factor: Test Second</h2>
+        <ol>
+          <li>Find an issue</li>
+          <li>Get example ICS file</li>
+          <li>Write tests</li>
+          <li>Implement change</li>
+        </ol>
+        <pre>
+            <code>def test_only_one_event_present(calendars):</code>
+            <code>    events = calendars.issue_1.at("20220408")</code>
+            <code>    assert len(events) == 1</code>
+        </pre>
+    </section>
+
+
+    <section class="slide">
+        <h2>Factor: Complexity Last</h2>
+        <ol>
+          <li>Open Specifiation: RFC 5545</li>
+          <li>Includes:
+            <ol>
+              <li><b>events</b> & <b>time zones</b></li>
+              <li>journal entries, alarms, TODOs, free/busy times</li>
+            </ol>
+          </li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Factor: Complexity Last</h2>
+        <pre>
+          <code>BEGIN:VEVENT</code>
+          <code><span class="comment">... removed lines ...</span></code>
+          <code>DTSTART:202203<mark>07</mark>T120000Z</code>
+          <code>RRULE:FREQ=WEEKLY;BYDAY=MO</code>
+          <code>EXDATE:202203<mark>14</mark>T120000Z</code>
+          <code>RDATE:202203<mark>26</mark>T14000Z</code>
+          <code>END:VEVENT</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Factor: Ecosystem Relationships</h2>
+        <ol>
+          <li><a href="https://pypi.org/project/icalendar">icalendar</a> - read and write ICalendar files</li>
+          <li><a href="https://pypi.org/project/icalevents">icalevents</a> - same use-case as recurring_ical_events</li>
+          <li><a href="https://icspy.readthedocs.io/en/stable/">icspy</a> - create simple events</li>
+          <li><a href="https://openwebcalendar.herokuapp.com/">open-web-calendar</a> - display ICS files as web page</li>
+          <li><a href="https://pypi.org/project/x-wr-timezone">x-wr-timezone</a> - correct X-WR-TIMEZONE issues</li>
+        </ol>
+    </section>
+
+    <section class="slide" id="factors-summary">
+        <h2>
+          All Factors:
+        </h2>
+        <ol>
+          <li>Your Use Case ➡ Common Use Case</li>
+          <li>License</li>
+          <li>Documentation First</li>
+          <li>Feedback</li>
+          <li>Test Second</li>
+          <li>Complexity Last</li>
+          <li>Ecosystem Relationships</li>
+        </ol>
+    </section>
+
+
+    <section class="slide" id="see-more">
+        <h2>
+          Thanks for ...
+        </h2>
+        <ol>
+          <li>
+            <img src="pictures/logo.svg" alt="Shower logo">
+            <a href="https://github.com/shower/shower">shower - the presentation engine</a>
+          </li>
+          <li>
+              <a href="https://eventyay.com/e/6b901f56">FOSSASIA Summit 2022</a>
+          </li>
+          <li>
+              Python, my teachers,
+              your attention, the GPL, the support of my family, the
+              smartphone apps I use for development. <a href="https://www.piwheels.org/">piwheels.org</a>
+          </li>
+        </ol>
+        <p>
+          This talk by Nicco Kunzmann is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="pictures/by-sa.svg">CC-BY-SA 4.0</a> License.
+        </p>
+        <style>
+            #see-more h2 {
+                font-size: 100px
+            }
+
+            #see-more img {
+                width: 0.72em;
+                height: 0.72em;
+            }
+        </style>
+    </section>
+
+
+    <section class="slide">
+        <h2>Hands On!</h2>
+        <ol>
+          <li>Example program: <br/><a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li>
+          <li>Install Python3 and pip</li>
+          <li>Run <pre><code>pip install recurring-ical-events</code></pre></li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Hands On!</h2>
+        <pre>
+          <code>import icalendar, recurring_ical_events</code>
+          <code>from urllib.request import urlopen</code>
+          <code>ical_string = urlopen(<mark>"http://tinyurl.com/y24m3r8f"</mark>).read()</code>
+          <code>calendar = icalendar.Calendar.from_ical(ical_string)</code>
+          <code>events = recurring_ical_events.of(calendar).at(<mark>(2019, 3)</mark>)</code>
+          <code>for event in events:</code>
+          <code>    print("start {} summary {}".format(event["DTSTART"].dt,</code>
+          <code>                                       event.get("SUMMARY")))</code>
+        </pre>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="slide">
         <h2>ICalendar - Why?</h2>
         <ol>
           <li>Sharing of calendar events around the world</li>
           <li>Files: <code>.ics</code></li>
           <li>Used by: Nextloud, Eventyay, Thunderbird, Android, ...</li>
-          <li>Open Specifiation: RFC 5545</li>
         </ol>
     </section>
 
@@ -98,12 +313,6 @@
         <ol>
           <li>Version 1.0 from 1997</li>
           <li>Current Version 2.0 since 2009</li>
-          <li>Includes:
-            <ol>
-              <li><b>events</b> & <b>time zones</b></li>
-              <li>journal entries, alarms, TODOs, free/busy times</li>
-            </ol>
-          </li>
         </ol>
     </section>
 
@@ -148,75 +357,6 @@
         </pre>
     </section>
 
-    <section class="slide">
-        <h2>recurring_ical_events - History</h2>
-        <ol>
-          <li>Federated calendar system: Open-Web-Calendar</li>
-          <li>user-controlled multi-source calendar, no self-hosting required</li>
-          <li><a href="https://openwebcalendar.herokuapp.com">openwebcalendar.herokuapp.com</a></li>
-          <li>Issue: When do ICAL events take place?</li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>recurring_ical_events - History</h2>
-        <ol>
-          <li>Decision: <a href="https://pypi.org/project/recurring-ical-events/">new library <code>python-recurring-ical-events</code></a></li>
-          <li>Advantage:
-            <ol>
-              <li>Encapsulated, testable behaviour</li>
-              <li>Other users ➡ feedback</li>
-              <li>Higher quality!</li>
-            </ol>
-          </li>
-          <li>
-              <img src="pictures/build.svg" />
-              <img src="pictures/pypi.svg" />
-              <img src="pictures/downloads.svg" />
-          </li>
-          <li>License: LGPL, open-source</li>
-          <li>Base: <code>icalendar</code></li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>recurring_ical_events - Testing</h2>
-        <ol>
-          <li>Test-Driven-Development (TDD)</li>
-          <li>Knowledge not lost but increasing over time</li>
-          <li>Changes not destructive</li>
-          <li>long-term maintainability</li>
-          <li>increasing quality with feedback</li>
-          <li>Using pytest, more than 600 tests</li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>recurring_ical_events - Testing</h2>
-        <ol>
-          <li>Find an issue</li>
-          <li>Get example ICS file</li>
-          <li>Write tests</li>
-          <li>Implement change</li>
-        </ol>
-        <pre>
-            <code>def test_only_one_event_present(calendars):</code>
-            <code>    events = calendars.issue_1.at("20220408")</code>
-            <code>    assert len(events) == 1</code>
-        </pre>
-    </section>
-
-    <section class="slide">
-        <h2>Related Work</h2>
-        <ol>
-          <li><a href="https://pypi.org/project/icalendar">icalendar</a> - read and write ICalendar files</li>
-          <li><a href="https://pypi.org/project/icalevents">icalevents</a> - same use-case as recurring_ical_events</li>
-          <li><a href="https://icspy.readthedocs.io/en/stable/">icspy</a> - create simple events</li>
-          <li><a href="https://pypi.org/project/x-wr-timezone">x-wr-timezone</a> - correct X-WR-TIMEZONE issues</li>
-          <li><a href="https://openwebcalendar.herokuapp.com/">open-web-calendar</a> - display ICS files as web page</li>
-          <li><a href="https://datatracker.ietf.org/doc/html/rfc5545">RFC 5545</a></li>
-        </ol>
-    </section>
 
     <section class="slide">
         <h2>Future</h2>
@@ -236,62 +376,6 @@
     </section>
 
 
-    <section class="slide">
-        <h2>Hands On!</h2>
-        <ol>
-          <li>Example program: <br/><a href="https://niccokunzmann.github.io/ical-talk-fossasia-2022/example.py">niccokunzmann.github.io/ical-talk-fossasia-2022/example.py</a></li>
-          <li>Install Python3 and pip</li>
-          <li>Run <pre><code>pip install recurring-ical-events</code></pre></li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>Hands On!</h2>
-        <pre>
-          <code>import icalendar, recurring_ical_events</code>
-          <code>from urllib.request import urlopen</code>
-          <code>ical_string = urlopen(<mark>"http://tinyurl.com/y24m3r8f"</mark>).read()</code>
-          <code>calendar = icalendar.Calendar.from_ical(ical_string)</code>
-          <code>events = recurring_ical_events.of(calendar).at(<mark>(2019, 3)</mark>)</code>
-          <code>for event in events:</code>
-          <code>    print("start {} summary {}".format(event["DTSTART"].dt,</code>
-          <code>                                       event.get("SUMMARY")))</code>
-        </pre>
-    </section>
-
-
-    <section class="slide" id="see-more">
-        <h2>
-          Thanks for ...
-        </h2>
-        <ol>
-          <li>
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">shower - the presentation engine</a>
-          </li>
-          <li>
-              <a href="https://eventyay.com/e/6b901f56">FOSSASIA Summit 2022</a>
-          </li>
-          <li>
-              Python, my teachers,
-              your attention, the GPL, the support of my family, the
-              smartphone apps I use for development. <a href="https://www.piwheels.org/">piwheels.org</a>
-          </li>
-        </ol>
-        <p>
-          This talk by Nicco Kunzmann is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="pictures/by-sa.svg">CC-BY-SA 4.0</a> License.
-        </p>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
-
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
-    </section>
 
 <!--
     <section class="slide">
