@@ -2,6 +2,7 @@ This is the talk at the fossasia summit 2022 about the recurring ical events lib
 - See it online: https://niccokunzmann.github.io/ical-talk-fossasia-2022/
 - Look at the PDF: [ICalendar Events with Python.pdf](ICalendar%20Events%20with%20Python.pdf)
 
+[![Watch it on Youtube](youtube.png)](https://youtu.be/8l3opDdg92I?t=10369)
 
 
 <!--
